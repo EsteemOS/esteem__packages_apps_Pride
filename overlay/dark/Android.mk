@@ -1,8 +1,8 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_PACKAGE_NAME := Launcher3Dark
-LOCAL_RRO_THEME := Launcher3Dark
+LOCAL_PACKAGE_NAME := PrideDark
+LOCAL_RRO_THEME := PrideDark
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(call all-subdir-java-files)

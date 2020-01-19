@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.omnirom.theme.launcher3.dark"
+    package="org.esteemrom.theme.Pride.dark"
     platformBuildVersionCode="26"
     platformBuildVersionName="8.0.0">
 
-    <overlay android:priority="1" android:targetPackage="com.android.launcher3" />
+    <overlay android:priority="1" android:targetPackage="com.android.Pride" />
 
     <application android:hasCode="false"
-                 android:label="Launcher3 Dark" />
+                 android:label="Pride Dark" />
 </manifest>

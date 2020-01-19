@@ -19,10 +19,10 @@
 -->
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.launcher3">
+    package="com.android.Pride">
     <uses-sdk android:targetSdkVersion="26" android:minSdkVersion="26"/>
     <!--
-    Manifest entries specific to Launcher3. This is merged with AndroidManifest-common.xml.
+    Manifest entries specific to Pride. This is merged with AndroidManifest-common.xml.
     Refer comments around specific entries on how to extend individual components.
     -->
 
@@ -32,13 +32,13 @@
     name in the permissions. eq com.mypackage.permission.READ_SETTINGS
     -->
     <permission
-        android:name="com.android.launcher3.permission.READ_SETTINGS"
+        android:name="com.android.Pride.permission.READ_SETTINGS"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="normal"
         android:label="@string/permlab_read_settings"
         android:description="@string/permdesc_read_settings"/>
     <permission
-        android:name="com.android.launcher3.permission.WRITE_SETTINGS"
+        android:name="com.android.Pride.permission.WRITE_SETTINGS"
         android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
         android:protectionLevel="signatureOrSystem"
         android:label="@string/permlab_write_settings"
@@ -46,16 +46,16 @@
 
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
-    <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
-    <uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS" />
-    <uses-permission android:name="org.omnirom.omnijaws.READ_WEATHER" />
+    <uses-permission android:name="com.android.Pride.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.Pride.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="org.esteemrom.esteemjaws.READ_WEATHER" />
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
     <uses-permission android:name="android.permission.READ_CALENDAR"/>
     <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
     <uses-permission android:name="android.permission.CHANGE_OVERLAY_PACKAGES" />
 
     <application
-        android:backupAgent="com.android.launcher3.LauncherBackupAgent"
+        android:backupAgent="com.android.Pride.LauncherBackupAgent"
         android:fullBackupOnly="true"
         android:fullBackupContent="@xml/backupscheme"
         android:hardwareAccelerated="true"
@@ -71,7 +71,7 @@
         attributes and intent filters the same
         -->
         <activity
-            android:name="com.android.launcher3.Launcher"
+            android:name="com.android.Pride.Launcher"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
@@ -94,7 +94,7 @@
         The settings activity. When extending keep the intent filter present
         -->
         <activity
-            android:name="com.android.launcher3.SettingsActivity"
+            android:name="com.android.Pride.SettingsActivity"
             android:label="@string/settings_button_text"
             android:theme="@style/SettingsTheme"
             android:autoRemoveFromRecents="true">
@@ -105,7 +105,7 @@
         </activity>
 
         <activity
-            android:name="com.android.launcher3.MultiSelectRecyclerViewActivity"
+            android:name="com.android.Pride.MultiSelectRecyclerViewActivity"
             android:autoRemoveFromRecents="true"
             android:label="@string/hidden_app"
             android:theme="@style/SettingsTheme" />
@@ -116,16 +116,16 @@
         represent the package name.
         -->
         <provider
-            android:name="com.android.launcher3.LauncherProvider"
-            android:authorities="com.android.launcher3.settings"
+            android:name="com.android.Pride.LauncherProvider"
+            android:authorities="com.android.Pride.settings"
             android:exported="true"
-            android:writePermission="com.android.launcher3.permission.WRITE_SETTINGS"
-            android:readPermission="com.android.launcher3.permission.READ_SETTINGS" />
+            android:writePermission="com.android.Pride.permission.WRITE_SETTINGS"
+            android:readPermission="com.android.Pride.permission.READ_SETTINGS" />
 
         <!-- ENABLE_FOR_TESTING
 
         <activity
-            android:name="com.android.launcher3.testing.LauncherExtension"
+            android:name="com.android.Pride.testing.LauncherExtension"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
@@ -142,7 +142,7 @@
         </activity>
 
         <activity
-            android:name="com.android.launcher3.testing.MemoryDumpActivity"
+            android:name="com.android.Pride.testing.MemoryDumpActivity"
             android:theme="@android:style/Theme.NoDisplay"
             android:label="* HPROF"
             android:excludeFromRecents="true"
@@ -156,7 +156,7 @@
         </activity>
 
         <activity
-            android:name="com.android.launcher3.testing.ToggleWeightWatcher"
+            android:name="com.android.Pride.testing.ToggleWeightWatcher"
             android:label="Show Mem"
             android:icon="@drawable/ic_launcher_home">
             <intent-filter>
@@ -166,7 +166,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.android.launcher3.testing.MemoryTracker" />
+        <service android:name="com.android.Pride.testing.MemoryTracker" />
 
         -->
 

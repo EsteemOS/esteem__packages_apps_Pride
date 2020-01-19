@@ -48,13 +48,13 @@ LOCAL_AAPT_FLAGS := \
     --extra-packages android.support.v7.recyclerview \
 
 LOCAL_MIN_SDK_VERSION := 26
-LOCAL_PACKAGE_NAME := Launcher3
+LOCAL_PACKAGE_NAME := Pride
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_OVERRIDES_PACKAGES := Home Launcher2
 
 LOCAL_FULL_LIBS_MANIFEST_FILES := $(LOCAL_PATH)/AndroidManifest-common.xml
 
-LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.launcher3.*
+LOCAL_JACK_COVERAGE_INCLUDE_FILTER := com.android.Pride.*
 
 include $(BUILD_PACKAGE)
 
