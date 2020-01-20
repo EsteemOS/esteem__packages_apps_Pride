@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.notification;
+package com.android.pride.notification;
 
 import android.animation.Animator;
 import android.app.Notification;
@@ -28,13 +28,13 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.PillHeightRevealOutlineProvider;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.logging.UserEventDispatcher.LogContainerProvider;
-import com.android.launcher3.popup.PopupItemView;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
+import com.android.pride.ItemInfo;
+import com.android.pride.R;
+import com.android.pride.anim.PillHeightRevealOutlineProvider;
+import com.android.pride.graphics.IconPalette;
+import com.android.pride.logging.UserEventDispatcher.LogContainerProvider;
+import com.android.pride.popup.PopupItemView;
+import com.android.pride.userevent.nano.LauncherLogProto;
 
 import java.util.List;
 

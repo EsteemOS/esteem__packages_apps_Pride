@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.pride.graphics;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -25,12 +25,12 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetHostView;
-import com.android.launcher3.R;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.config.ProviderConfig;
-import com.android.launcher3.folder.FolderIcon;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAppWidgetHostView;
+import com.android.pride.R;
+import com.android.pride.Workspace;
+import com.android.pride.config.ProviderConfig;
+import com.android.pride.folder.FolderIcon;
 
 /**
  * A utility class to generate preview bitmap for dragging.

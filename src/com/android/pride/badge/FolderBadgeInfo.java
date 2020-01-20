@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.badge;
+package com.android.pride.badge;
 
-import com.android.launcher3.Utilities;
+import com.android.pride.Utilities;
 
 /**
  * Subclass of BadgeInfo that only contains the badge count, which is

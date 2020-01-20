@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.notification;
+package com.android.pride.notification;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -30,11 +30,11 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.util.Themes;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.userevent.nano.LauncherLogProto;
+import com.android.pride.util.Themes;
 
 /**
  * A {@link android.widget.FrameLayout} that contains a single notification,

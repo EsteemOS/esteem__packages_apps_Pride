@@ -14,24 +14,24 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.popup;
+package com.android.pride.popup;
 
 import android.content.ComponentName;
 import android.service.notification.StatusBarNotification;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.notification.NotificationInfo;
-import com.android.launcher3.notification.NotificationKeyData;
-import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.Utilities;
+import com.android.pride.badge.BadgeInfo;
+import com.android.pride.notification.NotificationInfo;
+import com.android.pride.notification.NotificationKeyData;
+import com.android.pride.notification.NotificationListener;
+import com.android.pride.shortcuts.DeepShortcutManager;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.MultiHashMap;
+import com.android.pride.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.Collections;

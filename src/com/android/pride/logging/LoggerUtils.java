@@ -13,25 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.logging;
+package com.android.pride.logging;
 
 import android.text.TextUtils;
 import android.util.ArrayMap;
 import android.util.SparseArray;
 import android.view.View;
 
-import com.android.launcher3.ButtonDropTarget;
-import com.android.launcher3.DeleteDropTarget;
-import com.android.launcher3.InfoDropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.UninstallDropTarget;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ControlType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ItemType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.LauncherEvent;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
+import com.android.pride.ButtonDropTarget;
+import com.android.pride.DeleteDropTarget;
+import com.android.pride.InfoDropTarget;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherSettings;
+import com.android.pride.UninstallDropTarget;
+import com.android.pride.userevent.nano.LauncherLogProto.Action;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.userevent.nano.LauncherLogProto.ControlType;
+import com.android.pride.userevent.nano.LauncherLogProto.ItemType;
+import com.android.pride.userevent.nano.LauncherLogProto.LauncherEvent;
+import com.android.pride.userevent.nano.LauncherLogProto.Target;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

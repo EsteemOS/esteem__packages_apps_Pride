@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.content.Intent;
 import android.os.Parcel;

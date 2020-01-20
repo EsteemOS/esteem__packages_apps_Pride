@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.keyboard;
+package com.android.pride.keyboard;
 
 import android.graphics.Rect;
 import android.view.View;
 import android.view.View.OnFocusChangeListener;
 
-import com.android.launcher3.PagedView;
+import com.android.pride.PagedView;
 
 /**
  * {@link FocusIndicatorHelper} for a generic view group.

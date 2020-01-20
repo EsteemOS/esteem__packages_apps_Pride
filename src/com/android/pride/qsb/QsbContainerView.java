@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.qsb;
+package com.android.pride.qsb;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -34,13 +34,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.AppWidgetResizeFrame;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
+import com.android.pride.AppWidgetResizeFrame;
+import com.android.pride.InvariantDeviceProfile;
+import com.android.pride.LauncherAppState;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.compat.AppWidgetManagerCompat;
+import com.android.pride.config.FeatureFlags;
 
 /**
  * A frame layout which contains a QSB. This internally uses fragment to bind the view, which

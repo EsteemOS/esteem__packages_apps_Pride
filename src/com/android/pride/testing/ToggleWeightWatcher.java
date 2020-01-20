@@ -1,14 +1,14 @@
-package com.android.launcher3.testing;
+package com.android.pride.testing;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.TestingUtils;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAppState;
+import com.android.pride.Utilities;
+import com.android.pride.util.TestingUtils;
 
 public class ToggleWeightWatcher extends Activity {
 

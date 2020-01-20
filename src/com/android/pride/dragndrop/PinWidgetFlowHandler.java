@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.pride.dragndrop;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProviderInfo;
@@ -22,10 +22,10 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.compat.PinItemRequestCompat;
-import com.android.launcher3.widget.WidgetAddFlowHandler;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.compat.PinItemRequestCompat;
+import com.android.pride.widget.WidgetAddFlowHandler;
 
 /**
  * Extension of WidgetAddFlowHandler to handle pin item request behavior.

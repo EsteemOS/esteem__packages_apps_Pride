@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.folder.Folder;
+import com.android.pride.dragndrop.DragOptions;
+import com.android.pride.folder.Folder;
 
 public class DeleteDropTarget extends ButtonDropTarget {
 

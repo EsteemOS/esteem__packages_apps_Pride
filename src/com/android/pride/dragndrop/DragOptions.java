@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.pride.dragndrop;
 
 import android.graphics.Point;
 import android.support.annotation.CallSuper;
 import android.view.View;
 
-import com.android.launcher3.DropTarget;
+import com.android.pride.DropTarget;
 
 /**
  * Set of options to control the drag and drop behavior.

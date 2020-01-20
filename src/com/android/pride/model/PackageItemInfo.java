@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.model;
+package com.android.pride.model;
 
-import com.android.launcher3.ItemInfoWithIcon;
+import com.android.pride.ItemInfoWithIcon;
 
 /**
  * Represents a {@link Package} in the widget tray section.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.folder;
+package com.android.pride.folder;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -49,34 +49,34 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.Alarm;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.CheckLongPressHelper;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.FolderInfo.FolderListener;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.OnAlarmListener;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.SimpleOnStylusPressListener;
-import com.android.launcher3.StylusEventHelper;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.badge.BadgeRenderer;
-import com.android.launcher3.badge.FolderBadgeInfo;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.Alarm;
+import com.android.pride.AppInfo;
+import com.android.pride.BubbleTextView;
+import com.android.pride.CellLayout;
+import com.android.pride.CheckLongPressHelper;
+import com.android.pride.DeviceProfile;
+import com.android.pride.DropTarget.DragObject;
+import com.android.pride.FastBitmapDrawable;
+import com.android.pride.FolderInfo;
+import com.android.pride.FolderInfo.FolderListener;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAnimUtils;
+import com.android.pride.LauncherSettings;
+import com.android.pride.OnAlarmListener;
+import com.android.pride.R;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.SimpleOnStylusPressListener;
+import com.android.pride.StylusEventHelper;
+import com.android.pride.Utilities;
+import com.android.pride.Workspace;
+import com.android.pride.badge.BadgeRenderer;
+import com.android.pride.badge.FolderBadgeInfo;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.dragndrop.DragLayer;
+import com.android.pride.dragndrop.DragView;
+import com.android.pride.graphics.IconPalette;
+import com.android.pride.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -90,7 +90,7 @@ public class FolderIcon extends FrameLayout implements FolderListener {
     private FolderInfo mInfo;
     @Thunk static boolean sStaticValuesDirty = true;
 
-    public static final int NUM_ITEMS_IN_PREVIEW = FeatureFlags.LAUNCHER3_LEGACY_FOLDER_ICON ?
+    public static final int NUM_ITEMS_IN_PREVIEW = FeatureFlags.pride_LEGACY_FOLDER_ICON ?
             StackFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW :
             ClippedFolderIconLayoutRule.MAX_NUM_ITEMS_IN_PREVIEW;
 
@@ -164,7 +164,7 @@ public class FolderIcon extends FrameLayout implements FolderListener {
     private void init() {
         mLongPressHelper = new CheckLongPressHelper(this);
         mStylusEventHelper = new StylusEventHelper(new SimpleOnStylusPressListener(this), this);
-        mPreviewLayoutRule = FeatureFlags.LAUNCHER3_LEGACY_FOLDER_ICON ?
+        mPreviewLayoutRule = FeatureFlags.pride_LEGACY_FOLDER_ICON ?
                 new StackFolderIconLayoutRule() :
                 new ClippedFolderIconLayoutRule();
         mSlop = ViewConfiguration.get(getContext()).getScaledTouchSlop();
@@ -1010,7 +1010,7 @@ public class FolderIcon extends FrameLayout implements FolderListener {
             PreviewItemDrawingParams p = mDrawingParams.get(i);
             p.drawable = ((TextView) items.get(i)).getCompoundDrawables()[1];
 
-            if (!animate || FeatureFlags.LAUNCHER3_LEGACY_FOLDER_ICON) {
+            if (!animate || FeatureFlags.pride_LEGACY_FOLDER_ICON) {
                 computePreviewItemDrawingParams(i, nItemsInPreview, p);
                 if (mReferenceDrawable == null) {
                     mReferenceDrawable = p.drawable;

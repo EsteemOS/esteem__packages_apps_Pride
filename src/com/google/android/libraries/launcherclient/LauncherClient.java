@@ -20,7 +20,7 @@ import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.android.launcher3.Utilities;
+import com.android.pride.Utilities;
 
 public class LauncherClient {
 
@@ -107,7 +107,7 @@ public class LauncherClient {
             .appendQueryParameter("v", Integer.toString(0))
             .build();
 
-        return new Intent("com.android.launcher3.WINDOW_OVERLAY")
+        return new Intent("com.android.pride.WINDOW_OVERLAY")
             .setPackage(targetPackage)
             .setData(uri);
     }

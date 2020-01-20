@@ -1,4 +1,4 @@
-package com.android.launcher3.preferences;
+package com.android.pride.preferences;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -26,7 +26,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.android.launcher3.R;
+import com.android.pride.R;
 
 
 public class IconPackPreference extends Preference {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.pride.dragndrop;
 
 import android.graphics.PointF;
 import android.os.SystemClock;
@@ -23,11 +23,11 @@ import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.ViewConfiguration;
 
-import com.android.launcher3.ButtonDropTarget;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.util.FlingAnimation;
+import com.android.pride.ButtonDropTarget;
+import com.android.pride.DropTarget;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.util.FlingAnimation;
 
 /**
  * Utility class to manage fling to delete action during drag and drop.

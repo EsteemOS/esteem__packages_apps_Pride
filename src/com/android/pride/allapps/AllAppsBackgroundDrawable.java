@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -25,7 +25,7 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.view.Gravity;
 
-import com.android.launcher3.R;
+import com.android.pride.R;
 
 /**
  * This is a custom composite drawable that has a fixed virtual size and dynamically lays out its

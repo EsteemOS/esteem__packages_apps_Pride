@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.keyboard;
+package com.android.pride.keyboard;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;

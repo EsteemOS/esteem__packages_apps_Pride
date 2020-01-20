@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.accessibility;
+package com.android.pride.accessibility;
 
 import android.content.Context;
 import android.view.View;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityManager;
 
-import com.android.launcher3.Launcher;
+import com.android.pride.Launcher;
 
 /**
  * Periodically sends accessibility events to announce ongoing state changed. Based on the

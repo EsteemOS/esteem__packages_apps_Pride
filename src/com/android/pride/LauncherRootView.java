@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.pride;
 
 import android.annotation.TargetApi;
 import android.app.ActivityManager;

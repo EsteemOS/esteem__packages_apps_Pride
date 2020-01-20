@@ -1,12 +1,12 @@
-package com.android.launcher3;
+package com.android.pride;
 
 import android.app.backup.BackupAgent;
 import android.app.backup.BackupDataInput;
 import android.app.backup.BackupDataOutput;
 import android.os.ParcelFileDescriptor;
 
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.provider.RestoreDbTask;
+import com.android.pride.logging.FileLog;
+import com.android.pride.provider.RestoreDbTask;
 
 public class LauncherBackupAgent extends BackupAgent {
 

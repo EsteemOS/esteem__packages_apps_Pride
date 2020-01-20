@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.pride.compat;
 
 import android.content.Context;
 import android.content.pm.PackageInstaller;
@@ -25,10 +25,10 @@ import android.os.Process;
 import android.os.UserHandle;
 import android.util.SparseArray;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.IconCache;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherModel;
+import com.android.pride.util.Thunk;
 
 import java.util.HashMap;
 

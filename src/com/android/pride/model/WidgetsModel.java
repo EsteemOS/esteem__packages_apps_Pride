@@ -1,5 +1,5 @@
 
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.Context;
@@ -9,19 +9,19 @@ import android.os.UserHandle;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.android.launcher3.AppFilter;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
-import com.android.launcher3.config.ProviderConfig;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Preconditions;
+import com.android.pride.AppFilter;
+import com.android.pride.IconCache;
+import com.android.pride.InvariantDeviceProfile;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherAppWidgetProviderInfo;
+import com.android.pride.Utilities;
+import com.android.pride.compat.AppWidgetManagerCompat;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.compat.ShortcutConfigActivityInfo;
+import com.android.pride.config.ProviderConfig;
+import com.android.pride.util.MultiHashMap;
+import com.android.pride.util.PackageUserKey;
+import com.android.pride.util.Preconditions;
 
 import java.util.ArrayList;
 import java.util.HashMap;

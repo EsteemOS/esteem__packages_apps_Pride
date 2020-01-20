@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.shortcuts;
+package com.android.pride.shortcuts;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -26,21 +26,21 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.logging.UserEventDispatcher.LogContainerProvider;
-import com.android.launcher3.popup.PopupContainerWithArrow;
-import com.android.launcher3.popup.PopupItemView;
-import com.android.launcher3.popup.PopupPopulator;
-import com.android.launcher3.popup.SystemShortcut;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
+import com.android.pride.AbstractFloatingView;
+import com.android.pride.BubbleTextView;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAnimUtils;
+import com.android.pride.R;
+import com.android.pride.anim.PropertyListBuilder;
+import com.android.pride.dragndrop.DragOptions;
+import com.android.pride.dragndrop.DragView;
+import com.android.pride.logging.UserEventDispatcher.LogContainerProvider;
+import com.android.pride.popup.PopupContainerWithArrow;
+import com.android.pride.popup.PopupItemView;
+import com.android.pride.popup.PopupPopulator;
+import com.android.pride.popup.SystemShortcut;
+import com.android.pride.userevent.nano.LauncherLogProto;
 
 import java.util.ArrayList;
 import java.util.Collections;

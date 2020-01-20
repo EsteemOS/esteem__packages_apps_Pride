@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProviderInfo;
@@ -35,16 +35,16 @@ import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.util.PackageManagerHelper;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.Provider;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.compat.UserManagerCompat;
+import com.android.pride.graphics.LauncherIcons;
+import com.android.pride.shortcuts.DeepShortcutManager;
+import com.android.pride.shortcuts.ShortcutInfoCompat;
+import com.android.pride.shortcuts.ShortcutKey;
+import com.android.pride.util.PackageManagerHelper;
+import com.android.pride.util.Preconditions;
+import com.android.pride.util.Provider;
+import com.android.pride.util.Thunk;
 
 import org.json.JSONException;
 import org.json.JSONObject;

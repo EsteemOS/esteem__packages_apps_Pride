@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 /**
  * Base class which represents an area on the grid.

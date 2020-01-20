@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.notification;
+package com.android.pride.notification;
 
 import android.view.animation.Interpolator;
 import android.view.animation.PathInterpolator;

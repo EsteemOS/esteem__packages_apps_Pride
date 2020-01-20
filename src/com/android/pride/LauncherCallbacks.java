@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.Intent;
 import android.graphics.Rect;
@@ -22,9 +22,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
-import com.android.launcher3.allapps.AllAppsSearchBarController;
-import com.android.launcher3.logging.UserEventDispatcher;
-import com.android.launcher3.util.ComponentKey;
+import com.android.pride.allapps.AllAppsSearchBarController;
+import com.android.pride.logging.UserEventDispatcher;
+import com.android.pride.util.ComponentKey;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

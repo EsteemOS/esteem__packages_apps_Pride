@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.view.MotionEvent;
 

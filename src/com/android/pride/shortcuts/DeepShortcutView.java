@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.shortcuts;
+package com.android.pride.shortcuts;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -24,11 +24,11 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
+import com.android.pride.BubbleTextView;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.Utilities;
 
 /**
  * A {@link android.widget.FrameLayout} that contains a {@link DeepShortcutView}.

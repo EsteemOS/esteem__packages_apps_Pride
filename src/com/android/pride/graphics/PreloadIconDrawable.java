@@ -15,7 +15,7 @@
  */
 
 
-package com.android.launcher3.graphics;
+package com.android.pride.graphics;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -32,7 +32,7 @@ import android.util.Property;
 import android.util.SparseArray;
 import android.view.animation.LinearInterpolator;
 
-import com.android.launcher3.FastBitmapDrawable;
+import com.android.pride.FastBitmapDrawable;
 
 import java.lang.ref.WeakReference;
 

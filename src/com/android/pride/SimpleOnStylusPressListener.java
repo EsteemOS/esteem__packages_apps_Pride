@@ -1,9 +1,9 @@
-package com.android.launcher3;
+package com.android.pride;
 
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.android.launcher3.StylusEventHelper.StylusButtonListener;
+import com.android.pride.StylusEventHelper.StylusButtonListener;
 
 /**
  * Simple listener that performs a long click on the view after a stylus button press.

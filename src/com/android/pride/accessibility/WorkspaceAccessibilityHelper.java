@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.accessibility;
+package com.android.pride.accessibility;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -22,15 +22,15 @@ import android.support.v4.view.accessibility.AccessibilityNodeInfoCompat;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.accessibility.LauncherAccessibilityDelegate.DragType;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.dragndrop.DragLayer;
+import com.android.pride.AppInfo;
+import com.android.pride.CellLayout;
+import com.android.pride.FolderInfo;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.accessibility.LauncherAccessibilityDelegate.DragType;
+import com.android.pride.R;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.dragndrop.DragLayer;
 
 /**
  * Implementation of {@link DragAndDropAccessibilityDelegate} to support DnD on workspace.

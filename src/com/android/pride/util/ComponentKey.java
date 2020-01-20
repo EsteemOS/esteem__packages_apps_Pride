@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 /**
  * Copyright (C) 2015 The Android Open Source Project
@@ -21,7 +21,7 @@ import android.content.Context;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.compat.UserManagerCompat;
+import com.android.pride.compat.UserManagerCompat;
 
 import java.util.Arrays;
 

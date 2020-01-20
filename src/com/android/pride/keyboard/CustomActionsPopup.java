@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.keyboard;
+package com.android.pride.keyboard;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,10 +24,10 @@ import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
 
-import com.android.launcher3.popup.PopupContainerWithArrow;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.accessibility.LauncherAccessibilityDelegate;
+import com.android.pride.popup.PopupContainerWithArrow;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.accessibility.LauncherAccessibilityDelegate;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.widget;
+package com.android.pride.widget;
 
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.model.WidgetItem;
+import com.android.pride.model.WidgetItem;
 
 import java.text.Collator;
 import java.util.Comparator;

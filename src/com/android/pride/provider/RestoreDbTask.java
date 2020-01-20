@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.provider;
+package com.android.pride.provider;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherProvider.DatabaseHelper;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.util.LogConfig;
+import com.android.pride.LauncherAppWidgetInfo;
+import com.android.pride.LauncherProvider.DatabaseHelper;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.Utilities;
+import com.android.pride.logging.FileLog;
+import com.android.pride.util.LogConfig;
 
 import java.io.InvalidObjectException;
 

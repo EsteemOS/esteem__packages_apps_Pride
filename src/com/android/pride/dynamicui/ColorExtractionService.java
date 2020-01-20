@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dynamicui;
+package com.android.pride.dynamicui;
 
 import android.annotation.TargetApi;
 import android.app.WallpaperManager;
@@ -32,11 +32,11 @@ import android.os.ParcelFileDescriptor;
 import android.support.v7.graphics.Palette;
 import android.util.Log;
 
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
+import com.android.pride.LauncherProvider;
+import com.android.pride.LauncherSettings;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.config.FeatureFlags;
 
 import java.io.IOException;
 

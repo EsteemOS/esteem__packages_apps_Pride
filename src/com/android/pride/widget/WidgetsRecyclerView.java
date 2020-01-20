@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.pride.widget;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.support.v7.widget.LinearLayoutManager;
 import android.util.AttributeSet;
 import android.view.View;
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.WidgetsModel;
+import com.android.pride.BaseRecyclerView;
+import com.android.pride.model.PackageItemInfo;
+import com.android.pride.model.WidgetsModel;
 
 /**
  * The widgets recycler view.

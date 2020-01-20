@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.pride.dragndrop;
 
 import android.content.ComponentName;
 import android.content.res.Resources;
@@ -29,16 +29,16 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.accessibility.DragViewStateAnnouncer;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.util.TouchController;
+import com.android.pride.DragSource;
+import com.android.pride.DropTarget;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.accessibility.DragViewStateAnnouncer;
+import com.android.pride.util.ItemInfoMatcher;
+import com.android.pride.util.Thunk;
+import com.android.pride.util.TouchController;
 
 import java.util.ArrayList;
 

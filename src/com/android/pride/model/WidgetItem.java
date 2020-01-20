@@ -1,15 +1,15 @@
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
-import com.android.launcher3.util.ComponentKey;
+import com.android.pride.InvariantDeviceProfile;
+import com.android.pride.LauncherAppWidgetProviderInfo;
+import com.android.pride.Utilities;
+import com.android.pride.compat.ShortcutConfigActivityInfo;
+import com.android.pride.util.ComponentKey;
 
 import java.text.Collator;
 

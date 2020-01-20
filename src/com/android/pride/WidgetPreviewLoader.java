@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -31,18 +31,18 @@ import android.support.v4.graphics.ColorUtils;
 import android.util.Log;
 import android.util.LongSparseArray;
 
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.graphics.ShadowGenerator;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.SQLiteCacheHelper;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.WidgetCell;
+import com.android.pride.compat.AppWidgetManagerCompat;
+import com.android.pride.compat.ShortcutConfigActivityInfo;
+import com.android.pride.compat.UserManagerCompat;
+import com.android.pride.graphics.LauncherIcons;
+import com.android.pride.graphics.ShadowGenerator;
+import com.android.pride.model.WidgetItem;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.PackageUserKey;
+import com.android.pride.util.Preconditions;
+import com.android.pride.util.SQLiteCacheHelper;
+import com.android.pride.util.Thunk;
+import com.android.pride.widget.WidgetCell;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.notification;
+package com.android.pride.notification;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -27,9 +27,9 @@ import android.support.annotation.Nullable;
 import android.support.v4.util.Pair;
 import android.text.TextUtils;
 
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.LauncherModel;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.Arrays;

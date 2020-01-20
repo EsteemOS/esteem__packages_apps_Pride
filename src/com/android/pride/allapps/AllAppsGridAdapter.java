@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.content.Context;
 import android.content.Intent;
@@ -33,13 +33,13 @@ import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.TextView;
 
-import com.android.launcher3.discovery.AppDiscoveryAppInfo;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.allapps.AlphabeticalAppsList.AdapterItem;
-import com.android.launcher3.discovery.AppDiscoveryItemView;
+import com.android.pride.discovery.AppDiscoveryAppInfo;
+import com.android.pride.AppInfo;
+import com.android.pride.BubbleTextView;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.allapps.AlphabeticalAppsList.AdapterItem;
+import com.android.pride.discovery.AppDiscoveryItemView;
 
 import java.util.List;
 

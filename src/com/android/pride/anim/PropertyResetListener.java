@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.anim;
+package com.android.pride.anim;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

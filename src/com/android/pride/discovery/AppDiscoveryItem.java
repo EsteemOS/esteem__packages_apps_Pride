@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.discovery;
+package com.android.pride.discovery;
 
 import android.content.Context;
 import android.content.Intent;

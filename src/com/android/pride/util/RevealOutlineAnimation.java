@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -8,7 +8,7 @@ import android.graphics.Rect;
 import android.view.View;
 import android.view.ViewOutlineProvider;
 
-import com.android.launcher3.Utilities;
+import com.android.pride.Utilities;
 
 /**
  * A {@link ViewOutlineProvider} that has helper functions to create reveal animations.

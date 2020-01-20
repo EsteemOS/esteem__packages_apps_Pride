@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -46,17 +46,17 @@ import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.Provider;
-import com.android.launcher3.util.SQLiteCacheHelper;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.compat.UserManagerCompat;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.graphics.LauncherIcons;
+import com.android.pride.model.PackageItemInfo;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.Preconditions;
+import com.android.pride.util.Provider;
+import com.android.pride.util.SQLiteCacheHelper;
+import com.android.pride.util.Themes;
+import com.android.pride.util.Thunk;
 
 import java.util.Collections;
 import java.util.HashMap;

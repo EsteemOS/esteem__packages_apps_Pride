@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.pride.graphics;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -37,15 +37,15 @@ import android.os.Process;
 import android.os.UserHandle;
 import android.util.Log;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
+import com.android.pride.AppInfo;
+import com.android.pride.IconCache;
+import com.android.pride.LauncherAppState;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.model.PackageItemInfo;
+import com.android.pride.shortcuts.DeepShortcutManager;
+import com.android.pride.shortcuts.ShortcutInfoCompat;
 
 /**
  * Helper methods for generating various launcher icons

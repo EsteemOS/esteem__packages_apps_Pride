@@ -1,4 +1,4 @@
-package com.android.launcher3.pageindicators;
+package com.android.pride.pageindicators;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -18,10 +18,10 @@ import android.util.Property;
 import android.view.ViewConfiguration;
 import android.widget.ImageView;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.dynamicui.ExtractedColors;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.dynamicui.ExtractedColors;
 
 /**
  * A PageIndicator that briefly shows a fraction of a line when moving between pages.

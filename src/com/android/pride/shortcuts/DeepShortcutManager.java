@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.shortcuts;
+package com.android.pride.shortcuts;
 
 import android.annotation.TargetApi;
 import android.content.ComponentName;
@@ -28,9 +28,9 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.util.Log;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.Utilities;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherSettings;
+import com.android.pride.Utilities;
 
 import java.util.ArrayList;
 import java.util.Collections;

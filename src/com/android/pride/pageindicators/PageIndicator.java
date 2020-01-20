@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.pageindicators;
+package com.android.pride.pageindicators;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.dynamicui.ExtractedColors;
+import com.android.pride.dynamicui.ExtractedColors;
 
 /**
  * Base class for a page indicator.

@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.pride;
 
 import android.appwidget.AppWidgetHost;
 import android.appwidget.AppWidgetManager;
@@ -15,8 +15,8 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.util.Thunk;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

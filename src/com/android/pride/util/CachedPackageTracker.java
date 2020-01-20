@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.LauncherActivityInfo;
 import android.os.UserHandle;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.LauncherAppsCompat.OnAppsChangedCallbackCompat;
-import com.android.launcher3.compat.UserManagerCompat;
+import com.android.pride.Utilities;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.compat.LauncherAppsCompat.OnAppsChangedCallbackCompat;
+import com.android.pride.compat.UserManagerCompat;
 
 import java.util.ArrayList;
 import java.util.Arrays;

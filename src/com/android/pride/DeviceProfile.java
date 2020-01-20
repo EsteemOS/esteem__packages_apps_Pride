@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.appwidget.AppWidgetHostView;
 import android.content.ComponentName;
@@ -30,9 +30,9 @@ import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.CellLayout.ContainerType;
-import com.android.launcher3.badge.BadgeRenderer;
-import com.android.launcher3.config.FeatureFlags;
+import com.android.pride.CellLayout.ContainerType;
+import com.android.pride.badge.BadgeRenderer;
+import com.android.pride.config.FeatureFlags;
 
 import java.util.ArrayList;
 

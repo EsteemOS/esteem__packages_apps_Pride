@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.content.ContentProviderOperation;
 import android.content.ContentResolver;
@@ -23,18 +23,18 @@ import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.Settings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.util.ContentWriter;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.LooperExecuter;
+import com.android.pride.FolderInfo;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherModel;
+import com.android.pride.LauncherProvider;
+import com.android.pride.LauncherSettings;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.LauncherSettings.Settings;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.util.ContentWriter;
+import com.android.pride.util.ItemInfoMatcher;
+import com.android.pride.util.LooperExecuter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

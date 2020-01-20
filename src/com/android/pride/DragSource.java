@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.view.View;
 
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.logging.UserEventDispatcher.LogContainerProvider;
+import com.android.pride.DropTarget.DragObject;
+import com.android.pride.logging.UserEventDispatcher.LogContainerProvider;
 
 /**
  * Interface defining an object that can originate a drag.

@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.config.FeatureFlags;
+import com.android.pride.CellLayout;
+import com.android.pride.DeviceProfile;
+import com.android.pride.InvariantDeviceProfile;
+import com.android.pride.ShortcutAndWidgetContainer;
+import com.android.pride.config.FeatureFlags;
 
 import java.util.Arrays;
 

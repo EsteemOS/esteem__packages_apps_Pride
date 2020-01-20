@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.folder;
+package com.android.pride.folder;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -27,26 +27,26 @@ import android.view.View;
 import android.view.ViewDebug;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.FocusHelper.PagedFolderKeyEventListener;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.PagedView;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace.ItemOperator;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.keyboard.ViewGroupFocusHelper;
-import com.android.launcher3.pageindicators.PageIndicator;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.BubbleTextView;
+import com.android.pride.CellLayout;
+import com.android.pride.DeviceProfile;
+import com.android.pride.FocusHelper.PagedFolderKeyEventListener;
+import com.android.pride.InvariantDeviceProfile;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherModel;
+import com.android.pride.PagedView;
+import com.android.pride.R;
+import com.android.pride.ShortcutAndWidgetContainer;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.Utilities;
+import com.android.pride.Workspace.ItemOperator;
+import com.android.pride.dragndrop.DragController;
+import com.android.pride.keyboard.ViewGroupFocusHelper;
+import com.android.pride.pageindicators.PageIndicator;
+import com.android.pride.util.Themes;
+import com.android.pride.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.HashMap;

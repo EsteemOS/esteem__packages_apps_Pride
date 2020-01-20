@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.folder;
+package com.android.pride.folder;
 
 import android.view.View;
 
-import com.android.launcher3.folder.FolderIcon.PreviewItemDrawingParams;
+import com.android.pride.folder.FolderIcon.PreviewItemDrawingParams;
 
 import java.util.List;
 

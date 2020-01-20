@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.os.UserManager;
 import android.util.AttributeSet;
 import android.widget.Toast;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
+import com.android.pride.compat.LauncherAppsCompat;
 
 public class UninstallDropTarget extends ButtonDropTarget {
 

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.pride.compat;
 
 import android.content.Context;
 import android.os.UserHandle;
 
-import com.android.launcher3.Utilities;
+import com.android.pride.Utilities;
 
 import java.util.List;
 

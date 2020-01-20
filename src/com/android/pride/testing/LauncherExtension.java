@@ -1,4 +1,4 @@
-package com.android.launcher3.testing;
+package com.android.pride.testing;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -8,12 +8,12 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherCallbacks;
-import com.android.launcher3.allapps.AllAppsSearchBarController;
-import com.android.launcher3.logging.UserEventDispatcher;
-import com.android.launcher3.util.ComponentKey;
+import com.android.pride.AppInfo;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherCallbacks;
+import com.android.pride.allapps.AllAppsSearchBarController;
+import com.android.pride.logging.UserEventDispatcher;
+import com.android.pride.util.ComponentKey;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.pride.compat;
 
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.Context;
@@ -24,7 +24,7 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-import com.android.launcher3.Utilities;
+import com.android.pride.Utilities;
 
 /**
  * A wrapper around platform implementation of PinItemRequestCompat until the

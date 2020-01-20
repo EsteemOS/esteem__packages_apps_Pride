@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.folder;
+package com.android.pride.folder;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -25,9 +25,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.dragndrop.DragLayer;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.dragndrop.DragLayer;
 
 /**
  * A temporary view which displays the a bitmap (used for folder icon animation)

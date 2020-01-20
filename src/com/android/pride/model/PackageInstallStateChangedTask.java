@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.content.ComponentName;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel.CallbackTask;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.compat.PackageInstallerCompat.PackageInstallInfo;
+import com.android.pride.AllAppsList;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherAppWidgetInfo;
+import com.android.pride.LauncherModel.CallbackTask;
+import com.android.pride.LauncherModel.Callbacks;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.compat.PackageInstallerCompat;
+import com.android.pride.compat.PackageInstallerCompat.PackageInstallInfo;
 
 import java.util.HashSet;
 

@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.os.UserHandle;
 
-import com.android.launcher3.LauncherModel.BaseModelUpdateTask;
-import com.android.launcher3.LauncherModel.CallbackTask;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.MultiHashMap;
+import com.android.pride.LauncherModel.BaseModelUpdateTask;
+import com.android.pride.LauncherModel.CallbackTask;
+import com.android.pride.LauncherModel.Callbacks;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.MultiHashMap;
 
 import java.util.ArrayList;
 

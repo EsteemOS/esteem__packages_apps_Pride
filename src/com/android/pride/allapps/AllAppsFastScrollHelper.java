@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
-import com.android.launcher3.BaseRecyclerViewFastScrollBar;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.BaseRecyclerViewFastScrollBar;
+import com.android.pride.BubbleTextView;
+import com.android.pride.FastBitmapDrawable;
+import com.android.pride.util.Thunk;
 
 import java.util.HashSet;
 import java.util.List;

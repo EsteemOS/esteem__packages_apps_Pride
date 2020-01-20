@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.pride.graphics;
 
 import android.app.Notification;
 import android.content.Context;
@@ -27,8 +27,8 @@ import android.support.annotation.Nullable;
 import android.support.v4.graphics.ColorUtils;
 import android.util.Log;
 
-import com.android.launcher3.R;
-import com.android.launcher3.util.Themes;
+import com.android.pride.R;
+import com.android.pride.util.Themes;
 
 /**
  * Contains colors based on the dominant color of an icon.

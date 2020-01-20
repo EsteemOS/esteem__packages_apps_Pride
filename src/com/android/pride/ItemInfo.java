@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -22,7 +22,7 @@ import android.content.Intent;
 import android.os.Process;
 import android.os.UserHandle;
 
-import com.android.launcher3.util.ContentWriter;
+import com.android.pride.util.ContentWriter;
 
 /**
  * Represents an item in the launcher.

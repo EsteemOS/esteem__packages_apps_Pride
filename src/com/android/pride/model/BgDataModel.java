@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.content.Context;
 import android.os.UserHandle;
@@ -21,25 +21,25 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.MutableInt;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.config.ProviderConfig;
-import com.android.launcher3.logging.LoggerUtils;
-import com.android.launcher3.logging.DumpTargetWrapper;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.model.nano.LauncherDumpProto;
-import com.android.launcher3.model.nano.LauncherDumpProto.ContainerType;
-import com.android.launcher3.model.nano.LauncherDumpProto.DumpTarget;
-import com.android.launcher3.model.nano.LauncherDumpProto.ItemType;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.MultiHashMap;
+import com.android.pride.FolderInfo;
+import com.android.pride.InstallShortcutReceiver;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherAppWidgetInfo;
+import com.android.pride.LauncherSettings;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.config.ProviderConfig;
+import com.android.pride.logging.LoggerUtils;
+import com.android.pride.logging.DumpTargetWrapper;
+import com.android.pride.shortcuts.DeepShortcutManager;
+import com.android.pride.shortcuts.ShortcutInfoCompat;
+import com.android.pride.shortcuts.ShortcutKey;
+import com.android.pride.model.nano.LauncherDumpProto;
+import com.android.pride.model.nano.LauncherDumpProto.ContainerType;
+import com.android.pride.model.nano.LauncherDumpProto.DumpTarget;
+import com.android.pride.model.nano.LauncherDumpProto.ItemType;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.LongArrayMap;
+import com.android.pride.util.MultiHashMap;
 import com.google.protobuf.nano.MessageNano;
 
 import java.io.FileDescriptor;

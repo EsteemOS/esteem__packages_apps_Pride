@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.pride.dragndrop;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -25,14 +25,14 @@ import android.content.pm.ShortcutInfo;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.R;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.PinItemRequestCompat;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
+import com.android.pride.IconCache;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherSettings;
+import com.android.pride.R;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.compat.PinItemRequestCompat;
+import com.android.pride.compat.ShortcutConfigActivityInfo;
 
 /**
  * Extension of ShortcutConfigActivityInfo to be used in the confirmation prompt for pin item
@@ -74,7 +74,7 @@ class PinShortcutRequestActivityInfo extends ShortcutConfigActivityInfo {
     }
 
     @Override
-    public com.android.launcher3.ShortcutInfo createShortcutInfo() {
+    public com.android.pride.ShortcutInfo createShortcutInfo() {
         // Total duration for the drop animation to complete.
         long duration = mContext.getResources().getInteger(R.integer.config_dropAnimMaxDuration) +
                 Launcher.EXIT_SPRINGLOADED_MODE_SHORT_TIMEOUT +

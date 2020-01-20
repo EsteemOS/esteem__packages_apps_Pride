@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -28,13 +28,13 @@ import android.util.Log;
 import android.view.View;
 import android.view.animation.AccelerateInterpolator;
 
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.allapps.AllAppsTransitionController;
-import com.android.launcher3.anim.AnimationLayerSet;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.CircleRevealOutlineProvider;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.widget.WidgetsContainerView;
+import com.android.pride.allapps.AllAppsContainerView;
+import com.android.pride.allapps.AllAppsTransitionController;
+import com.android.pride.anim.AnimationLayerSet;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.util.CircleRevealOutlineProvider;
+import com.android.pride.util.Thunk;
+import com.android.pride.widget.WidgetsContainerView;
 
 /**
  * TODO: figure out what kind of tests we can write for this

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.shortcuts;
+package com.android.pride.shortcuts;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -23,9 +23,9 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.android.pride.BubbleTextView;
+import com.android.pride.R;
+import com.android.pride.Utilities;
 
 /**
  * A {@link BubbleTextView} that has the shortcut icon on the left and drag handle on the right.

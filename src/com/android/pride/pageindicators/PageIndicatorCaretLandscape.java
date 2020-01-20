@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.pageindicators;
+package com.android.pride.pageindicators;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -22,8 +22,8 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
+import com.android.pride.Launcher;
+import com.android.pride.R;
 
 /**
  * Simply draws the caret drawable bottom-right aligned in the view. This ensures that we can have

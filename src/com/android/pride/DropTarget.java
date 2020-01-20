@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.graphics.Rect;
 
-import com.android.launcher3.accessibility.DragViewStateAnnouncer;
-import com.android.launcher3.dragndrop.DragView;
+import com.android.pride.accessibility.DragViewStateAnnouncer;
+import com.android.pride.dragndrop.DragView;
 
 /**
  * Interface defining an object that can receive a drag.

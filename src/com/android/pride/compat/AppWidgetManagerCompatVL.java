@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.pride.compat;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetHost;
@@ -28,10 +28,10 @@ import android.os.UserManager;
 import android.support.annotation.Nullable;
 import android.widget.Toast;
 
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.LauncherAppWidgetProviderInfo;
+import com.android.pride.R;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.HashMap;

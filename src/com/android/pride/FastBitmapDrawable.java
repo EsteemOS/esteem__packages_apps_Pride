@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.animation.ObjectAnimator;
 import android.animation.TimeInterpolator;
@@ -32,7 +32,7 @@ import android.graphics.drawable.Drawable;
 import android.util.Property;
 import android.util.SparseArray;
 
-import com.android.launcher3.graphics.IconPalette;
+import com.android.pride.graphics.IconPalette;
 
 public class FastBitmapDrawable extends Drawable {
 

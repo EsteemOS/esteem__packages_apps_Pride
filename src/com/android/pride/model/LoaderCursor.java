@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.content.ComponentName;
 import android.content.ContentValues;
@@ -32,23 +32,23 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.LongSparseArray;
 
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.util.ContentWriter;
-import com.android.launcher3.util.GridOccupancy;
-import com.android.launcher3.util.LongArrayMap;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.android.pride.IconCache;
+import com.android.pride.InvariantDeviceProfile;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherSettings;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.Utilities;
+import com.android.pride.Workspace;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.compat.UserManagerCompat;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.graphics.LauncherIcons;
+import com.android.pride.logging.FileLog;
+import com.android.pride.util.ContentWriter;
+import com.android.pride.util.GridOccupancy;
+import com.android.pride.util.LongArrayMap;
+import com.android.pride.util.PackageManagerHelper;
 
 import java.net.URISyntaxException;
 import java.security.InvalidParameterException;

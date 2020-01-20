@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.appwidget.AppWidgetHostView;
 import android.appwidget.AppWidgetProviderInfo;
@@ -37,8 +37,8 @@ import android.widget.AdapterView;
 import android.widget.Advanceable;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragLayer.TouchCompleteListener;
+import com.android.pride.dragndrop.DragLayer;
+import com.android.pride.dragndrop.DragLayer.TouchCompleteListener;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.pride.dragndrop;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ClipDescription;
@@ -32,22 +32,22 @@ import android.view.DragEvent;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.DeleteDropTarget;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.compat.PinItemRequestCompat;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.android.launcher3.widget.PendingAddWidgetInfo;
-import com.android.launcher3.widget.PendingItemDragHelper;
-import com.android.launcher3.widget.WidgetAddFlowHandler;
+import com.android.pride.DeleteDropTarget;
+import com.android.pride.DragSource;
+import com.android.pride.DropTarget;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAppWidgetProviderInfo;
+import com.android.pride.PendingAddItemInfo;
+import com.android.pride.R;
+import com.android.pride.compat.PinItemRequestCompat;
+import com.android.pride.folder.Folder;
+import com.android.pride.userevent.nano.LauncherLogProto;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.widget.PendingAddShortcutInfo;
+import com.android.pride.widget.PendingAddWidgetInfo;
+import com.android.pride.widget.PendingItemDragHelper;
+import com.android.pride.widget.WidgetAddFlowHandler;
 
 import java.util.UUID;
 
@@ -60,7 +60,7 @@ public class PinItemDragListener
 
     private static final String TAG = "PinItemDragListener";
 
-    private static final String MIME_TYPE_PREFIX = "com.android.launcher3.drag_and_drop/";
+    private static final String MIME_TYPE_PREFIX = "com.android.pride.drag_and_drop/";
     public static final String EXTRA_PIN_ITEM_DRAG_LISTENER = "pin_item_drag_listener";
 
     private final PinItemRequestCompat mRequest;

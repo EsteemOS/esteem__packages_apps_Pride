@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.os.Looper;
 
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.config.ProviderConfig;
+import com.android.pride.LauncherModel;
+import com.android.pride.config.ProviderConfig;
 
 /**
  * A set of utility methods for thread verification.

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.pageindicators;
+package com.android.pride.pageindicators;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -35,9 +35,9 @@ import android.view.ViewOutlineProvider;
 import android.view.animation.Interpolator;
 import android.view.animation.OvershootInterpolator;
 
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.Themes;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.util.Themes;
 
 /**
  * {@link PageIndicator} which shows dots per page. The active page is shown with the current

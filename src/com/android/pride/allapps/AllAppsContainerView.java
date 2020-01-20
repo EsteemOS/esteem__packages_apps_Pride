@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -35,30 +35,30 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.BaseContainerView;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.DeleteDropTarget;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.ExtendedEditText;
-import com.android.launcher3.Insettable;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.discovery.AppDiscoveryItem;
-import com.android.launcher3.discovery.AppDiscoveryUpdateState;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.graphics.TintedDrawableSpan;
-import com.android.launcher3.keyboard.FocusedItemDecorator;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.AppInfo;
+import com.android.pride.BaseContainerView;
+import com.android.pride.BubbleTextView;
+import com.android.pride.DeleteDropTarget;
+import com.android.pride.DeviceProfile;
+import com.android.pride.DragSource;
+import com.android.pride.DropTarget;
+import com.android.pride.ExtendedEditText;
+import com.android.pride.Insettable;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.discovery.AppDiscoveryItem;
+import com.android.pride.discovery.AppDiscoveryUpdateState;
+import com.android.pride.dragndrop.DragController;
+import com.android.pride.dragndrop.DragOptions;
+import com.android.pride.folder.Folder;
+import com.android.pride.graphics.TintedDrawableSpan;
+import com.android.pride.keyboard.FocusedItemDecorator;
+import com.android.pride.userevent.nano.LauncherLogProto.Target;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.List;

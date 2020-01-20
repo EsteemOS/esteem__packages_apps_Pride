@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.provider;
+package com.android.pride.provider;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -22,10 +22,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.LauncherSettings.WorkspaceScreens;
-import com.android.launcher3.logging.FileLog;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.LauncherSettings.WorkspaceScreens;
+import com.android.pride.logging.FileLog;
 
 import java.util.ArrayList;
 

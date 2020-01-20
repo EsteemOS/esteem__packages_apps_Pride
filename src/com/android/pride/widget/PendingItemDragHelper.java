@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.pride.widget;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -26,18 +26,18 @@ import android.os.Build;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.LivePreviewWidgetCell;
-import com.android.launcher3.graphics.DragPreviewProvider;
-import com.android.launcher3.graphics.HolographicOutlineHelper;
-import com.android.launcher3.graphics.LauncherIcons;
+import com.android.pride.DeviceProfile;
+import com.android.pride.DragSource;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAppState;
+import com.android.pride.PendingAddItemInfo;
+import com.android.pride.R;
+import com.android.pride.Workspace;
+import com.android.pride.dragndrop.DragOptions;
+import com.android.pride.dragndrop.LivePreviewWidgetCell;
+import com.android.pride.graphics.DragPreviewProvider;
+import com.android.pride.graphics.HolographicOutlineHelper;
+import com.android.pride.graphics.LauncherIcons;
 
 /**
  * Extension of {@link DragPreviewProvider} with logic specific to pending widgets/shortcuts

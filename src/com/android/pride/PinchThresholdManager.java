@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 /**
  * Keeps track of when thresholds are passed during a pinch gesture,

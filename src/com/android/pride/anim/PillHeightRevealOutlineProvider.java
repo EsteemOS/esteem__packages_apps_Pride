@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.anim;
+package com.android.pride.anim;
 
 import android.graphics.Rect;
 
-import com.android.launcher3.util.PillRevealOutlineProvider;
+import com.android.pride.util.PillRevealOutlineProvider;
 
 /**
  * Extension of {@link PillRevealOutlineProvider} which only changes the height of the pill.

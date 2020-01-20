@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.pride.compat;
 
 import android.appwidget.AppWidgetProviderInfo;
 import android.content.Context;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.util.PackageUserKey;
 
 import java.util.List;
 

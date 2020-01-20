@@ -1,4 +1,4 @@
-package com.android.launcher3.popup;
+package com.android.pride.popup;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,16 +7,16 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.InfoDropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.topwidget.OmniJawsClient;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.widget.WidgetsBottomSheet;
+import com.android.pride.AbstractFloatingView;
+import com.android.pride.InfoDropTarget;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.model.WidgetItem;
+import com.android.pride.topwidget.OmniJawsClient;
+import com.android.pride.util.PackageUserKey;
+import com.android.pride.util.Themes;
+import com.android.pride.widget.WidgetsBottomSheet;
 
 import java.util.List;
 

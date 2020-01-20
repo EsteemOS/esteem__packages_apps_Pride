@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.discovery;
+package com.android.pride.discovery;
 
 import android.content.ComponentName;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
+import com.android.pride.AppInfo;
+import com.android.pride.LauncherSettings;
+import com.android.pride.ShortcutInfo;
 
 public class AppDiscoveryAppInfo extends AppInfo {
 

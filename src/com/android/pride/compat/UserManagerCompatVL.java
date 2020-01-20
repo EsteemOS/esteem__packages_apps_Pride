@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.pride.compat;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -22,8 +22,8 @@ import android.content.pm.PackageManager;
 import android.os.UserHandle;
 import android.os.UserManager;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.LongArrayMap;
+import com.android.pride.Utilities;
+import com.android.pride.util.LongArrayMap;
 
 import java.util.ArrayList;
 import java.util.Collections;

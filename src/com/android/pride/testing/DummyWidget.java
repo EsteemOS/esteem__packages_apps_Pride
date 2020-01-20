@@ -1,9 +1,9 @@
-package com.android.launcher3.testing;
+package com.android.pride.testing;
 
 import android.appwidget.AppWidgetProviderInfo;
 
-import com.android.launcher3.CustomAppWidget;
-import com.android.launcher3.R;
+import com.android.pride.CustomAppWidget;
+import com.android.pride.R;
 
 public class DummyWidget implements CustomAppWidget {
     @Override

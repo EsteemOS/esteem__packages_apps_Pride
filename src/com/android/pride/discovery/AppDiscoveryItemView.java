@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.discovery;
+package com.android.pride.discovery;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -24,7 +24,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.R;
+import com.android.pride.R;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;

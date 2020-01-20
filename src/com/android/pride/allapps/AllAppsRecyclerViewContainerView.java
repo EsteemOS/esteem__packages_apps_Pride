@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -23,12 +23,12 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.BubbleTextView.BubbleTextShadowHandler;
-import com.android.launcher3.ClickShadowView;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
+import com.android.pride.BubbleTextView;
+import com.android.pride.BubbleTextView.BubbleTextShadowHandler;
+import com.android.pride.ClickShadowView;
+import com.android.pride.DeviceProfile;
+import com.android.pride.Launcher;
+import com.android.pride.R;
 
 /**
  * A container for RecyclerView to allow for the click shadow view to be shown behind an icon that

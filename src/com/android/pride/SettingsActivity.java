@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.app.Activity;
 import android.app.ActionBar;
@@ -43,9 +43,9 @@ import android.support.v4.os.BuildCompat;
 import android.util.Log;
 import android.view.MenuItem;
 
-import com.android.launcher3.graphics.IconShapeOverride;
-import com.android.launcher3.topwidget.esteemJawsClient;
-import com.android.launcher3.util.LooperExecuter;
+import com.android.pride.graphics.IconShapeOverride;
+import com.android.pride.topwidget.esteemJawsClient;
+import com.android.pride.util.LooperExecuter;
 
 import java.util.List;
 import java.util.ArrayList;

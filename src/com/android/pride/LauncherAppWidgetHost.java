@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.appwidget.AppWidgetHost;
 import android.appwidget.AppWidgetHostView;

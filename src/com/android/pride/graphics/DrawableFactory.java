@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.pride.graphics;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -30,11 +30,11 @@ import android.os.UserHandle;
 import android.support.annotation.UiThread;
 import android.util.Log;
 
-import com.android.launcher3.FastBitmapDrawable;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.allapps.AllAppsBackgroundDrawable;
+import com.android.pride.FastBitmapDrawable;
+import com.android.pride.ItemInfo;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.allapps.AllAppsBackgroundDrawable;
 
 import java.util.HashMap;
 

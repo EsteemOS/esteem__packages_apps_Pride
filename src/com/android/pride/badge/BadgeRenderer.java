@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.badge;
+package com.android.pride.badge;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -28,9 +28,9 @@ import android.graphics.Shader;
 import android.support.annotation.Nullable;
 import android.util.SparseArray;
 
-import com.android.launcher3.R;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.graphics.ShadowGenerator;
+import com.android.pride.R;
+import com.android.pride.graphics.IconPalette;
+import com.android.pride.graphics.ShadowGenerator;
 
 /**
  * Contains parameters necessary to draw a badge for an icon (e.g. the size of the badge).

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -22,10 +22,10 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.UserHandle;
 
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.android.pride.LauncherModel;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.util.MultiHashMap;
+import com.android.pride.util.PackageManagerHelper;
 
 import java.util.ArrayList;
 import java.util.HashSet;

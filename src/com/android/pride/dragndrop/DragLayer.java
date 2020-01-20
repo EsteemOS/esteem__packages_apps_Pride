@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.pride.dragndrop;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -40,27 +40,27 @@ import android.view.animation.Interpolator;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.AppWidgetResizeFrame;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DropTargetBar;
-import com.android.launcher3.ExtendedEditText;
-import com.android.launcher3.InsettableFrameLayout;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppWidgetHostView;
-import com.android.launcher3.PinchToOverviewListener;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutAndWidgetContainer;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.allapps.AllAppsTransitionController;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.keyboard.ViewGroupFocusHelper;
-import com.android.launcher3.logging.LoggerUtils;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.util.TouchController;
-import com.android.launcher3.widget.WidgetsBottomSheet;
+import com.android.pride.AbstractFloatingView;
+import com.android.pride.AppWidgetResizeFrame;
+import com.android.pride.CellLayout;
+import com.android.pride.DropTargetBar;
+import com.android.pride.ExtendedEditText;
+import com.android.pride.InsettableFrameLayout;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAppWidgetHostView;
+import com.android.pride.PinchToOverviewListener;
+import com.android.pride.R;
+import com.android.pride.ShortcutAndWidgetContainer;
+import com.android.pride.Utilities;
+import com.android.pride.allapps.AllAppsTransitionController;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.folder.Folder;
+import com.android.pride.folder.FolderIcon;
+import com.android.pride.keyboard.ViewGroupFocusHelper;
+import com.android.pride.logging.LoggerUtils;
+import com.android.pride.util.Thunk;
+import com.android.pride.util.TouchController;
+import com.android.pride.widget.WidgetsBottomSheet;
 
 import java.util.ArrayList;
 
@@ -153,7 +153,7 @@ public class DragLayer extends InsettableFrameLayout {
     }
 
     public void onAccessibilityStateChanged(boolean isAccessibilityEnabled) {
-        mPinchListener = FeatureFlags.LAUNCHER3_DISABLE_PINCH_TO_OVERVIEW || isAccessibilityEnabled
+        mPinchListener = FeatureFlags.pride_DISABLE_PINCH_TO_OVERVIEW || isAccessibilityEnabled
                 ? null : new PinchToOverviewListener(mLauncher);
     }
 
@@ -241,7 +241,7 @@ public class DragLayer extends InsettableFrameLayout {
             return true;
         }
 
-        if (FeatureFlags.LAUNCHER3_ALL_APPS_PULL_UP && mAllAppsController.onControllerInterceptTouchEvent(ev)) {
+        if (FeatureFlags.pride_ALL_APPS_PULL_UP && mAllAppsController.onControllerInterceptTouchEvent(ev)) {
             mActiveController = mAllAppsController;
             return true;
         }

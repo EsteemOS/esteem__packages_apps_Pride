@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.pride;
 
 public interface CustomAppWidget {
     public String getLabel();

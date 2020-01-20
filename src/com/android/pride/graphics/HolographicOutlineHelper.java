@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.pride.graphics;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -29,9 +29,9 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.util.SparseArray;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.R;
-import com.android.launcher3.config.ProviderConfig;
+import com.android.pride.BubbleTextView;
+import com.android.pride.R;
+import com.android.pride.config.ProviderConfig;
 
 import java.nio.ByteBuffer;
 

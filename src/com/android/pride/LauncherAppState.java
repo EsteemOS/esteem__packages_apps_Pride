@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.ContentProviderClient;
 import android.content.Context;
@@ -23,14 +23,14 @@ import android.content.IntentFilter;
 import android.os.Looper;
 import android.util.Log;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.config.ProviderConfig;
-import com.android.launcher3.dynamicui.ExtractionUtils;
-import com.android.launcher3.util.ConfigMonitor;
-import com.android.launcher3.util.Preconditions;
-import com.android.launcher3.util.TestingUtils;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.compat.PackageInstallerCompat;
+import com.android.pride.compat.UserManagerCompat;
+import com.android.pride.config.ProviderConfig;
+import com.android.pride.dynamicui.ExtractionUtils;
+import com.android.pride.util.ConfigMonitor;
+import com.android.pride.util.Preconditions;
+import com.android.pride.util.TestingUtils;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;

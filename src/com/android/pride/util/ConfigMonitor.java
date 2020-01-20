@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 /**
  * Copyright (C) 2015 The Android Open Source Project

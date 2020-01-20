@@ -1,4 +1,4 @@
-package com.android.launcher3.anim;
+package com.android.pride.anim;
 
 import android.animation.PropertyValuesHolder;
 import android.view.View;

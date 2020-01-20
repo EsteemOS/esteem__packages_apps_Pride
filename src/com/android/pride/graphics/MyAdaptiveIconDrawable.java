@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.pride.graphics;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -48,8 +48,8 @@ import org.xmlpull.v1.XmlPullParserException;
 import java.io.IOException;
 
 import com.android.internal.R;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.Utilities;
+import com.android.pride.LauncherAppState;
+import com.android.pride.Utilities;
 
 /**
  * <p>This class can also be created via XML inflation using <code>&lt;adaptive-icon></code> tag

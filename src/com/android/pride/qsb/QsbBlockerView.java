@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.qsb;
+package com.android.pride.qsb;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -27,10 +27,10 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.Workspace.OnStateChangeListener;
-import com.android.launcher3.Workspace.State;
+import com.android.pride.Launcher;
+import com.android.pride.Workspace;
+import com.android.pride.Workspace.OnStateChangeListener;
+import com.android.pride.Workspace.State;
 
 /**
  * A simple view used to show the region blocked by QSB during drag and drop.

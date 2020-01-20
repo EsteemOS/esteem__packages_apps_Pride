@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.popup;
+package com.android.pride.popup;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -43,43 +43,43 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LogAccelerateInterpolator;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.accessibility.LauncherAccessibilityDelegate;
-import com.android.launcher3.accessibility.ShortcutMenuAccessibilityDelegate;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.anim.PropertyResetListener;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.graphics.TriangleShape;
-import com.android.launcher3.notification.NotificationItemView;
-import com.android.launcher3.notification.NotificationKeyData;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.DeepShortcutView;
-import com.android.launcher3.shortcuts.ShortcutsItemView;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.AbstractFloatingView;
+import com.android.pride.BubbleTextView;
+import com.android.pride.DragSource;
+import com.android.pride.DropTarget;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAnimUtils;
+import com.android.pride.LauncherModel;
+import com.android.pride.LauncherSettings;
+import com.android.pride.LogAccelerateInterpolator;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.accessibility.LauncherAccessibilityDelegate;
+import com.android.pride.accessibility.ShortcutMenuAccessibilityDelegate;
+import com.android.pride.anim.PropertyListBuilder;
+import com.android.pride.anim.PropertyResetListener;
+import com.android.pride.badge.BadgeInfo;
+import com.android.pride.dragndrop.DragController;
+import com.android.pride.dragndrop.DragLayer;
+import com.android.pride.dragndrop.DragOptions;
+import com.android.pride.graphics.IconPalette;
+import com.android.pride.graphics.TriangleShape;
+import com.android.pride.notification.NotificationItemView;
+import com.android.pride.notification.NotificationKeyData;
+import com.android.pride.shortcuts.DeepShortcutManager;
+import com.android.pride.shortcuts.DeepShortcutView;
+import com.android.pride.shortcuts.ShortcutsItemView;
+import com.android.pride.util.PackageUserKey;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.ItemType;
-import static com.android.launcher3.userevent.nano.LauncherLogProto.Target;
+import static com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import static com.android.pride.userevent.nano.LauncherLogProto.ItemType;
+import static com.android.pride.userevent.nano.LauncherLogProto.Target;
 
 /**
  * A container for shortcuts to deep links within apps.

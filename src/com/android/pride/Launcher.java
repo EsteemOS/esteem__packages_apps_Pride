@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -85,61 +85,61 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.accessibility.LauncherAccessibilityDelegate;
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.allapps.PredictiveAppsProvider;
-import com.android.launcher3.allapps.AllAppsTransitionController;
-import com.android.launcher3.allapps.DefaultAppSearchController;
-import com.android.launcher3.anim.AnimationLayerSet;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.PinItemRequestCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.config.ProviderConfig;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.dragndrop.DragView;
-import com.android.launcher3.dragndrop.PinItemDragListener;
-import com.android.launcher3.dynamicui.ExtractedColors;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.keyboard.CustomActionsPopup;
-import com.android.launcher3.keyboard.ViewGroupFocusHelper;
-import com.android.launcher3.logging.FileLog;
-import com.android.launcher3.logging.UserEventDispatcher;
-import com.android.launcher3.model.ModelWriter;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.notification.NotificationListener;
-import com.android.launcher3.pageindicators.PageIndicator;
-import com.android.launcher3.popup.PopupContainerWithArrow;
-import com.android.launcher3.popup.PopupDataProvider;
-import com.android.launcher3.popup.SimplePopupContainerWithArrow;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.topwidget.TopWidgetView;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ControlType;
-import com.android.launcher3.util.ActivityResultInfo;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageManagerHelper;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.PendingRequestArgs;
-import com.android.launcher3.util.TestingUtils;
-import com.android.launcher3.util.Thunk;
-import com.android.launcher3.util.ViewOnDrawExecutor;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.android.launcher3.widget.PendingAddWidgetInfo;
-import com.android.launcher3.widget.WidgetAddFlowHandler;
-import com.android.launcher3.widget.WidgetHostViewLoader;
-import com.android.launcher3.widget.WidgetsContainerView;
+import com.android.pride.DropTarget.DragObject;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.accessibility.LauncherAccessibilityDelegate;
+import com.android.pride.allapps.AllAppsContainerView;
+import com.android.pride.allapps.PredictiveAppsProvider;
+import com.android.pride.allapps.AllAppsTransitionController;
+import com.android.pride.allapps.DefaultAppSearchController;
+import com.android.pride.anim.AnimationLayerSet;
+import com.android.pride.compat.AppWidgetManagerCompat;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.compat.PinItemRequestCompat;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.config.ProviderConfig;
+import com.android.pride.dragndrop.DragController;
+import com.android.pride.dragndrop.DragLayer;
+import com.android.pride.dragndrop.DragOptions;
+import com.android.pride.dragndrop.DragView;
+import com.android.pride.dragndrop.PinItemDragListener;
+import com.android.pride.dynamicui.ExtractedColors;
+import com.android.pride.folder.Folder;
+import com.android.pride.folder.FolderIcon;
+import com.android.pride.keyboard.CustomActionsPopup;
+import com.android.pride.keyboard.ViewGroupFocusHelper;
+import com.android.pride.logging.FileLog;
+import com.android.pride.logging.UserEventDispatcher;
+import com.android.pride.model.ModelWriter;
+import com.android.pride.model.PackageItemInfo;
+import com.android.pride.model.WidgetItem;
+import com.android.pride.notification.NotificationListener;
+import com.android.pride.pageindicators.PageIndicator;
+import com.android.pride.popup.PopupContainerWithArrow;
+import com.android.pride.popup.PopupDataProvider;
+import com.android.pride.popup.SimplePopupContainerWithArrow;
+import com.android.pride.shortcuts.DeepShortcutManager;
+import com.android.pride.shortcuts.ShortcutKey;
+import com.android.pride.topwidget.TopWidgetView;
+import com.android.pride.userevent.nano.LauncherLogProto;
+import com.android.pride.userevent.nano.LauncherLogProto.Action;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.userevent.nano.LauncherLogProto.ControlType;
+import com.android.pride.util.ActivityResultInfo;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.ItemInfoMatcher;
+import com.android.pride.util.MultiHashMap;
+import com.android.pride.util.PackageManagerHelper;
+import com.android.pride.util.PackageUserKey;
+import com.android.pride.util.PendingRequestArgs;
+import com.android.pride.util.TestingUtils;
+import com.android.pride.util.Thunk;
+import com.android.pride.util.ViewOnDrawExecutor;
+import com.android.pride.widget.PendingAddShortcutInfo;
+import com.android.pride.widget.PendingAddWidgetInfo;
+import com.android.pride.widget.WidgetAddFlowHandler;
+import com.android.pride.widget.WidgetHostViewLoader;
+import com.android.pride.widget.WidgetsContainerView;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
@@ -191,7 +191,7 @@ public class Launcher extends BaseActivity
 
     // The Intent extra that defines whether to ignore the launch animation
     static final String INTENT_EXTRA_IGNORE_LAUNCH_ANIMATION =
-            "com.android.launcher3.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
+            "com.android.pride.intent.extra.shortcut.INGORE_LAUNCH_ANIMATION";
 
     // Type: int
     private static final String RUNTIME_STATE_CURRENT_SCREEN = "launcher.current_screen";
@@ -1401,7 +1401,7 @@ public class Launcher extends BaseActivity
         mDragController.addDropTarget(mWorkspace);
         mDropTargetBar.setup(mDragController);
 
-        if (FeatureFlags.LAUNCHER3_ALL_APPS_PULL_UP) {
+        if (FeatureFlags.pride_ALL_APPS_PULL_UP) {
             mAllAppsController.setupViews(mAppsView, mHotseat, mWorkspace);
         }
 
@@ -2377,7 +2377,7 @@ public class Launcher extends BaseActivity
             if (v instanceof FolderIcon) {
                 onClickFolderIcon(v);
             }
-        } else if ((FeatureFlags.LAUNCHER3_ALL_APPS_PULL_UP && v instanceof PageIndicator) ||
+        } else if ((FeatureFlags.pride_ALL_APPS_PULL_UP && v instanceof PageIndicator) ||
                 (v == mAllAppsButton && mAllAppsButton != null)) {
             onClickAllAppsButton(v);
         } else if (tag instanceof AppInfo) {
@@ -2837,7 +2837,7 @@ public class Launcher extends BaseActivity
         if (isWorkspaceLocked()) return false;
         if (mState != State.WORKSPACE) return false;
 
-        if ((FeatureFlags.LAUNCHER3_ALL_APPS_PULL_UP && v instanceof PageIndicator) ||
+        if ((FeatureFlags.pride_ALL_APPS_PULL_UP && v instanceof PageIndicator) ||
                 (v == mAllAppsButton && mAllAppsButton != null)) {
             onLongClickAllAppsButton(v);
             return true;
@@ -3035,7 +3035,7 @@ public class Launcher extends BaseActivity
     }
 
     private void updateSoftInputMode() {
-        if (FeatureFlags.LAUNCHER3_UPDATE_SOFT_INPUT_MODE) {
+        if (FeatureFlags.pride_UPDATE_SOFT_INPUT_MODE) {
             final int mode;
             if (isAppsViewVisible()) {
                 mode = SOFT_INPUT_MODE_ALL_APPS;
@@ -4102,7 +4102,7 @@ public class Launcher extends BaseActivity
     }
 
     /**
-     * $ adb shell dumpsys activity com.android.launcher3.Launcher [--all]
+     * $ adb shell dumpsys activity com.android.pride.Launcher [--all]
      */
     @Override
     public void dump(String prefix, FileDescriptor fd, PrintWriter writer, String[] args) {
@@ -4336,7 +4336,7 @@ public class Launcher extends BaseActivity
             try {
                 IOverlayManager overlayManager = IOverlayManager.Stub.asInterface(
                         ServiceManager.getService(Context.OVERLAY_SERVICE));
-                overlayManager.setEnabled("org.esteemrom.theme.launcher3.dark",
+                overlayManager.setEnabled("org.esteemrom.theme.pride.dark",
                         mDarkMode ? true : false, UserHandle.myUserId());
             } catch (Exception e) {
                 Log.w(TAG, "Can't change theme", e);

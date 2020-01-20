@@ -14,20 +14,20 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.accessibility;
+package com.android.pride.accessibility;
 
 import android.view.View;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.notification.NotificationMainView;
-import com.android.launcher3.shortcuts.DeepShortcutView;
+import com.android.pride.AbstractFloatingView;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherSettings;
+import com.android.pride.R;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.notification.NotificationMainView;
+import com.android.pride.shortcuts.DeepShortcutView;
 
 import java.util.ArrayList;
 

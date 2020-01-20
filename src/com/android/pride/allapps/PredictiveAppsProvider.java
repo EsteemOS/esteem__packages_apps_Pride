@@ -1,4 +1,4 @@
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 
 import android.content.ComponentName;
@@ -7,8 +7,8 @@ import android.content.SharedPreferences;
 import android.os.Process;
 import android.preference.PreferenceManager;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.util.ComponentKey;
+import com.android.pride.Launcher;
+import com.android.pride.util.ComponentKey;
 
 import java.util.ArrayList;
 import java.util.Collections;

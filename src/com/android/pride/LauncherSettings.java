@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.ContentResolver;
 import android.database.sqlite.SQLiteDatabase;
@@ -22,7 +22,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.BaseColumns;
 
-import com.android.launcher3.config.ProviderConfig;
+import com.android.pride.config.ProviderConfig;
 
 /**
  * Settings related utilities.

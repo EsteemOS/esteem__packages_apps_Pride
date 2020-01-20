@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.logging;
+package com.android.pride.logging;
 
 import android.os.Process;
 import android.text.TextUtils;
 
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.model.nano.LauncherDumpProto;
-import com.android.launcher3.model.nano.LauncherDumpProto.ContainerType;
-import com.android.launcher3.model.nano.LauncherDumpProto.DumpTarget;
-import com.android.launcher3.model.nano.LauncherDumpProto.ItemType;
-import com.android.launcher3.model.nano.LauncherDumpProto.UserType;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherAppWidgetInfo;
+import com.android.pride.LauncherSettings;
+import com.android.pride.model.nano.LauncherDumpProto;
+import com.android.pride.model.nano.LauncherDumpProto.ContainerType;
+import com.android.pride.model.nano.LauncherDumpProto.DumpTarget;
+import com.android.pride.model.nano.LauncherDumpProto.ItemType;
+import com.android.pride.model.nano.LauncherDumpProto.UserType;
 
 import java.util.ArrayList;
 import java.util.List;

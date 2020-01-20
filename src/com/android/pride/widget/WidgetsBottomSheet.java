@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.pride.widget;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -32,23 +32,23 @@ import android.view.ViewGroup;
 import android.view.animation.Interpolator;
 import android.widget.TextView;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.Insettable;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.allapps.VerticalPullDetector;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.userevent.nano.LauncherLogProto;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.TouchController;
+import com.android.pride.AbstractFloatingView;
+import com.android.pride.DropTarget;
+import com.android.pride.Insettable;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAnimUtils;
+import com.android.pride.LauncherAppState;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.allapps.VerticalPullDetector;
+import com.android.pride.anim.PropertyListBuilder;
+import com.android.pride.dragndrop.DragController;
+import com.android.pride.dragndrop.DragOptions;
+import com.android.pride.model.WidgetItem;
+import com.android.pride.userevent.nano.LauncherLogProto;
+import com.android.pride.util.PackageUserKey;
+import com.android.pride.util.TouchController;
 
 import java.util.List;
 

@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.content.ComponentName;
 import android.os.UserHandle;
 
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.shortcuts.ShortcutKey;
+import com.android.pride.FolderInfo;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherAppWidgetInfo;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.shortcuts.ShortcutKey;
 
 import java.util.HashSet;
 

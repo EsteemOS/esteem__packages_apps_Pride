@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -24,12 +24,12 @@ import android.util.Log;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
-import com.android.launcher3.anim.AnimationLayerSet;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.anim.AnimationLayerSet;
+import com.android.pride.userevent.nano.LauncherLogProto.Action;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
 
-import static com.android.launcher3.Workspace.State.NORMAL;
-import static com.android.launcher3.Workspace.State.OVERVIEW;
+import static com.android.pride.Workspace.State.NORMAL;
+import static com.android.pride.Workspace.State.OVERVIEW;
 
 /**
  * Manages the animations that play as the user pinches to/from overview mode.

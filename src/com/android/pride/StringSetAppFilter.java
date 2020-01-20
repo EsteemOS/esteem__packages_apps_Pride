@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.Context;
 import android.preference.PreferenceManager;

@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.content.Context;
 import android.os.UserHandle;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.shortcuts.DeepShortcutManager;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.shortcuts.ShortcutKey;
-import com.android.launcher3.util.ComponentKey;
+import com.android.pride.AllAppsList;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherModel;
+import com.android.pride.LauncherSettings;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.compat.UserManagerCompat;
+import com.android.pride.graphics.LauncherIcons;
+import com.android.pride.shortcuts.DeepShortcutManager;
+import com.android.pride.shortcuts.ShortcutInfoCompat;
+import com.android.pride.shortcuts.ShortcutKey;
+import com.android.pride.util.ComponentKey;
 
 import java.util.ArrayList;
 import java.util.HashMap;

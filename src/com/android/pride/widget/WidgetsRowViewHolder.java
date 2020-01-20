@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.widget;
+package com.android.pride.widget;
 
 import android.support.v7.widget.RecyclerView.ViewHolder;
 import android.view.ViewGroup;
 
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.R;
+import com.android.pride.BubbleTextView;
+import com.android.pride.R;
 
 public class WidgetsRowViewHolder extends ViewHolder {
 

@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.animation.TimeInterpolator;
 import android.animation.ValueAnimator;
@@ -8,11 +8,11 @@ import android.graphics.Rect;
 import android.view.animation.AnimationUtils;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.ButtonDropTarget;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragView;
+import com.android.pride.ButtonDropTarget;
+import com.android.pride.DropTarget.DragObject;
+import com.android.pride.Launcher;
+import com.android.pride.dragndrop.DragLayer;
+import com.android.pride.dragndrop.DragView;
 
 public class FlingAnimation implements AnimatorUpdateListener, Runnable {
 

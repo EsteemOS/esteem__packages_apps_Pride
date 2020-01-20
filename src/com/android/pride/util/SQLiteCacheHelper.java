@@ -1,4 +1,4 @@
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -9,8 +9,8 @@ import android.database.sqlite.SQLiteFullException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.ProviderConfig;
+import com.android.pride.Utilities;
+import com.android.pride.config.ProviderConfig;
 
 /**
  * An extension of {@link SQLiteOpenHelper} with utility methods for a single table cache DB.

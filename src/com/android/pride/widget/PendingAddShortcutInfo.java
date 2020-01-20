@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.widget;
+package com.android.pride.widget;
 
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.PendingAddItemInfo;
-import com.android.launcher3.compat.ShortcutConfigActivityInfo;
+import com.android.pride.LauncherSettings;
+import com.android.pride.PendingAddItemInfo;
+import com.android.pride.compat.ShortcutConfigActivityInfo;
 
 /**
  * Meta data used for late binding of the short cuts.

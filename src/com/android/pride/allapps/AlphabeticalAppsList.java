@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.content.Context;
 import android.os.Process;
@@ -21,15 +21,15 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.config.ProviderConfig;
-import com.android.launcher3.discovery.AppDiscoveryAppInfo;
-import com.android.launcher3.discovery.AppDiscoveryItem;
-import com.android.launcher3.discovery.AppDiscoveryUpdateState;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LabelComparator;
+import com.android.pride.AppInfo;
+import com.android.pride.Launcher;
+import com.android.pride.compat.AlphabeticIndexCompat;
+import com.android.pride.config.ProviderConfig;
+import com.android.pride.discovery.AppDiscoveryAppInfo;
+import com.android.pride.discovery.AppDiscoveryItem;
+import com.android.pride.discovery.AppDiscoveryUpdateState;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.LabelComparator;
 
 import java.util.ArrayList;
 import java.util.Collections;

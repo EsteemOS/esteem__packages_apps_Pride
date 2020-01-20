@@ -1,4 +1,4 @@
-package com.android.launcher3.logging;
+package com.android.pride.logging;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -6,9 +6,9 @@ import android.os.Message;
 import android.util.Log;
 import android.util.Pair;
 
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.ProviderConfig;
+import com.android.pride.LauncherModel;
+import com.android.pride.Utilities;
+import com.android.pride.config.ProviderConfig;
 
 import java.io.BufferedReader;
 import java.io.File;

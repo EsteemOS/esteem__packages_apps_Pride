@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.app.AppOpsManager;
 import android.content.Context;
@@ -29,9 +29,9 @@ import android.os.Build;
 import android.os.UserHandle;
 import android.text.TextUtils;
 
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
+import com.android.pride.AppInfo;
+import com.android.pride.Utilities;
+import com.android.pride.compat.LauncherAppsCompat;
 
 import java.util.List;
 

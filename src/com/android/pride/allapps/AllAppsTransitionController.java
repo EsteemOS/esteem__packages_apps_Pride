@@ -1,4 +1,4 @@
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.animation.Animator;
 import android.animation.AnimatorInflater;
@@ -15,17 +15,17 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.Hotseat;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.util.TouchController;
+import com.android.pride.AbstractFloatingView;
+import com.android.pride.Hotseat;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAnimUtils;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.Workspace;
+import com.android.pride.userevent.nano.LauncherLogProto.Action;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.util.Themes;
+import com.android.pride.util.TouchController;
 
 /**
  * Handles AllApps view transition.

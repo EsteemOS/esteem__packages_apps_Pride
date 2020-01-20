@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
-import com.android.launcher3.Launcher.LauncherOverlay;
-import com.android.launcher3.Launcher.LauncherOverlayCallbacks;
+import com.android.pride.Launcher.LauncherOverlay;
+import com.android.pride.Launcher.LauncherOverlayCallbacks;
 
 import com.google.android.libraries.launcherclient.LauncherClient;
 import com.google.android.libraries.launcherclient.LauncherClientCallbacksAdapter;

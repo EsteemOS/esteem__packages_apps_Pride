@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.config;
+package com.android.pride.config;
 
 public class ProviderConfig {
 
-    public static final String AUTHORITY = "com.android.launcher3.settings".intern();
+    public static final String AUTHORITY = "com.android.pride.settings".intern();
 
     public static final boolean IS_DOGFOOD_BUILD = false;
 }

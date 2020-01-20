@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dynamicui;
+package com.android.pride.dynamicui;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -22,7 +22,7 @@ import android.support.v4.graphics.ColorUtils;
 import android.support.v7.graphics.Palette;
 import android.util.Log;
 
-import com.android.launcher3.Utilities;
+import com.android.pride.Utilities;
 
 /**
  * Saves and loads colors extracted from the wallpaper, as well as the associated wallpaper id.

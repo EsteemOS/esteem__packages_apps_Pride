@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.badge;
+package com.android.pride.badge;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -24,9 +24,9 @@ import android.graphics.Shader;
 import android.graphics.drawable.Drawable;
 import android.support.annotation.Nullable;
 
-import com.android.launcher3.notification.NotificationInfo;
-import com.android.launcher3.notification.NotificationKeyData;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.notification.NotificationInfo;
+import com.android.pride.notification.NotificationKeyData;
+import com.android.pride.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.List;

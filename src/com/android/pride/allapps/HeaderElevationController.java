@@ -1,4 +1,4 @@
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.content.res.Resources;
 import android.graphics.Outline;
@@ -6,9 +6,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewOutlineProvider;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.android.pride.BaseRecyclerView;
+import com.android.pride.R;
+import com.android.pride.Utilities;
 
 /**
  * Helper class for controlling the header elevation in response to RecyclerView scroll.

@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dragndrop;
+package com.android.pride.dragndrop;
 
-import static com.android.launcher3.logging.LoggerUtils.newCommandAction;
-import static com.android.launcher3.logging.LoggerUtils.newContainerTarget;
-import static com.android.launcher3.logging.LoggerUtils.newItemTarget;
-import static com.android.launcher3.logging.LoggerUtils.newLauncherEvent;
+import static com.android.pride.logging.LoggerUtils.newCommandAction;
+import static com.android.pride.logging.LoggerUtils.newContainerTarget;
+import static com.android.pride.logging.LoggerUtils.newItemTarget;
+import static com.android.pride.logging.LoggerUtils.newLauncherEvent;
 
 import android.annotation.TargetApi;
 import android.app.ActivityOptions;
@@ -41,24 +41,24 @@ import android.view.View.DragShadowBuilder;
 import android.view.View.OnLongClickListener;
 import android.view.View.OnTouchListener;
 
-import com.android.launcher3.BaseActivity;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.PinItemRequestCompat;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.shortcuts.ShortcutInfoCompat;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.widget.PendingAddShortcutInfo;
-import com.android.launcher3.widget.PendingAddWidgetInfo;
-import com.android.launcher3.widget.WidgetHostViewLoader;
-import com.android.launcher3.widget.WidgetImageView;
+import com.android.pride.BaseActivity;
+import com.android.pride.InstallShortcutReceiver;
+import com.android.pride.InvariantDeviceProfile;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherAppWidgetProviderInfo;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.compat.AppWidgetManagerCompat;
+import com.android.pride.compat.PinItemRequestCompat;
+import com.android.pride.model.WidgetItem;
+import com.android.pride.shortcuts.ShortcutInfoCompat;
+import com.android.pride.userevent.nano.LauncherLogProto.Action;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.widget.PendingAddShortcutInfo;
+import com.android.pride.widget.PendingAddWidgetInfo;
+import com.android.pride.widget.WidgetHostViewLoader;
+import com.android.pride.widget.WidgetImageView;
 
 @TargetApi(Build.VERSION_CODES.N_MR1)
 public class AddItemActivity extends BaseActivity implements OnLongClickListener, OnTouchListener {

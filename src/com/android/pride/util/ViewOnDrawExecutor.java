@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.util;
+package com.android.pride.util;
 
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnAttachStateChangeListener;
 import android.view.ViewTreeObserver.OnDrawListener;
 
-import com.android.launcher3.DeferredHandler;
-import com.android.launcher3.Launcher;
+import com.android.pride.DeferredHandler;
+import com.android.pride.Launcher;
 
 import java.util.ArrayList;
 import java.util.concurrent.Executor;

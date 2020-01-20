@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.accessibility;
+package com.android.pride.accessibility;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -23,9 +23,9 @@ import android.view.View.AccessibilityDelegate;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.accessibility.AccessibilityNodeInfo.AccessibilityAction;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.Utilities;
 
 /**
  * Accessibility delegate with actions pointing to various Overview entry points.

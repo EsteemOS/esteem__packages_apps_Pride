@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.graphics;
+package com.android.pride.graphics;
 
 import android.annotation.TargetApi;
 import android.app.AlarmManager;
@@ -33,12 +33,12 @@ import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherFiles;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.LooperExecuter;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherFiles;
+import com.android.pride.LauncherModel;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.util.LooperExecuter;
 
 import java.lang.reflect.Field;
 

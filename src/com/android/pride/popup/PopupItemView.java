@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.popup;
+package com.android.pride.popup;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -32,10 +32,10 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.LogAccelerateInterpolator;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.util.PillRevealOutlineProvider;
+import com.android.pride.LogAccelerateInterpolator;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.util.PillRevealOutlineProvider;
 
 /**
  * An abstract {@link FrameLayout} that supports animating an item's content

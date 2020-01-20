@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.animation.ObjectAnimator;
 import android.view.animation.AnimationUtils;
 import android.view.animation.Interpolator;
 
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.pageindicators.CaretDrawable;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.pageindicators.CaretDrawable;
 
 public class AllAppsCaretController {
     // Determines when the caret should flip. Should be accessed via getThreshold()

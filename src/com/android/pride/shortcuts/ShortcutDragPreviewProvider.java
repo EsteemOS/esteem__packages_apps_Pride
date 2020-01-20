@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.shortcuts;
+package com.android.pride.shortcuts;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -23,10 +23,10 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import com.android.launcher3.graphics.HolographicOutlineHelper;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.graphics.DragPreviewProvider;
+import com.android.pride.graphics.HolographicOutlineHelper;
+import com.android.pride.Launcher;
+import com.android.pride.Utilities;
+import com.android.pride.graphics.DragPreviewProvider;
 
 /**
  * Extension of {@link DragPreviewProvider} which generates bitmaps scaled to the default icon size.

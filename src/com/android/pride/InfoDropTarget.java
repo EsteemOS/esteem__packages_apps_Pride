@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
@@ -26,8 +26,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.util.Themes;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.util.Themes;
 
 public class InfoDropTarget extends UninstallDropTarget {
 

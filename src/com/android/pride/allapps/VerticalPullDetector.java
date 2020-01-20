@@ -1,4 +1,4 @@
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.content.Context;
 import android.util.Log;

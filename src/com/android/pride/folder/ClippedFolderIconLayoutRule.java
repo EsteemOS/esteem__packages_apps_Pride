@@ -1,8 +1,8 @@
-package com.android.launcher3.folder;
+package com.android.pride.folder;
 
 import android.view.View;
 
-import com.android.launcher3.config.FeatureFlags;
+import com.android.pride.config.FeatureFlags;
 
 import java.util.ArrayList;
 import java.util.List;

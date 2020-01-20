@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.android.launcher3.topwidget;
+package com.android.pride.topwidget;
 
 import android.content.Context;
 import android.content.Intent;
@@ -47,7 +47,7 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.R;
+import com.android.pride.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

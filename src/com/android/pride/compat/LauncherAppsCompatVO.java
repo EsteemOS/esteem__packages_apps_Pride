@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.compat;
+package com.android.pride.compat;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -28,8 +28,8 @@ import android.os.UserHandle;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.android.launcher3.compat.ShortcutConfigActivityInfo.ShortcutConfigActivityInfoVO;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.compat.ShortcutConfigActivityInfo.ShortcutConfigActivityInfoVO;
+import com.android.pride.util.PackageUserKey;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

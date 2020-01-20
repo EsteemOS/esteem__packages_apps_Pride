@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -37,13 +37,13 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.dynamicui.ExtractedColors;
-import com.android.launcher3.logging.UserEventDispatcher;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.Themes;
-import com.android.launcher3.Utilities;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.dynamicui.ExtractedColors;
+import com.android.pride.logging.UserEventDispatcher;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.userevent.nano.LauncherLogProto.Target;
+import com.android.pride.util.Themes;
+import com.android.pride.Utilities;
 
 public class Hotseat extends FrameLayout
         implements UserEventDispatcher.LogContainerProvider {

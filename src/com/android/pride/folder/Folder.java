@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.folder;
+package com.android.pride.folder;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -43,40 +43,40 @@ import android.view.animation.AnimationUtils;
 import android.view.inputmethod.EditorInfo;
 import android.widget.TextView;
 
-import com.android.launcher3.AbstractFloatingView;
-import com.android.launcher3.Alarm;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.CellLayout;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.ExtendedEditText;
-import com.android.launcher3.FolderInfo;
-import com.android.launcher3.FolderInfo.FolderListener;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.LauncherAnimUtils;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LogDecelerateInterpolator;
-import com.android.launcher3.OnAlarmListener;
-import com.android.launcher3.PagedView;
-import com.android.launcher3.R;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.UninstallDropTarget.DropTargetSource;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace.ItemOperator;
-import com.android.launcher3.accessibility.AccessibleDragListenerAdapter;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.config.ProviderConfig;
-import com.android.launcher3.dragndrop.DragController;
-import com.android.launcher3.dragndrop.DragController.DragListener;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.pageindicators.PageIndicatorDots;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.CircleRevealOutlineProvider;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.AbstractFloatingView;
+import com.android.pride.Alarm;
+import com.android.pride.AppInfo;
+import com.android.pride.CellLayout;
+import com.android.pride.DeviceProfile;
+import com.android.pride.DragSource;
+import com.android.pride.DropTarget;
+import com.android.pride.ExtendedEditText;
+import com.android.pride.FolderInfo;
+import com.android.pride.FolderInfo.FolderListener;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.LauncherAnimUtils;
+import com.android.pride.LauncherSettings;
+import com.android.pride.LogDecelerateInterpolator;
+import com.android.pride.OnAlarmListener;
+import com.android.pride.PagedView;
+import com.android.pride.R;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.UninstallDropTarget.DropTargetSource;
+import com.android.pride.Utilities;
+import com.android.pride.Workspace.ItemOperator;
+import com.android.pride.accessibility.AccessibleDragListenerAdapter;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.config.ProviderConfig;
+import com.android.pride.dragndrop.DragController;
+import com.android.pride.dragndrop.DragController.DragListener;
+import com.android.pride.dragndrop.DragLayer;
+import com.android.pride.dragndrop.DragOptions;
+import com.android.pride.pageindicators.PageIndicatorDots;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.userevent.nano.LauncherLogProto.Target;
+import com.android.pride.util.CircleRevealOutlineProvider;
+import com.android.pride.util.Thunk;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -478,7 +478,7 @@ public class Folder extends AbstractFloatingView implements DragSource, View.OnC
     @SuppressLint("InflateParams")
     static Folder fromXml(Launcher launcher) {
         return (Folder) launcher.getLayoutInflater().inflate(
-                FeatureFlags.LAUNCHER3_DISABLE_ICON_NORMALIZATION
+                FeatureFlags.pride_DISABLE_ICON_NORMALIZATION
                         ? R.layout.user_folder : R.layout.user_folder_icon_normalized, null);
     }
 

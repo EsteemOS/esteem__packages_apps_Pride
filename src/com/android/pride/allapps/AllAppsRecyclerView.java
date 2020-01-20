@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.allapps;
+package com.android.pride.allapps;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -25,14 +25,14 @@ import android.util.SparseIntArray;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.android.launcher3.BaseRecyclerView;
-import com.android.launcher3.BubbleTextView;
-import com.android.launcher3.DeviceProfile;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.BaseRecyclerView;
+import com.android.pride.BubbleTextView;
+import com.android.pride.DeviceProfile;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.graphics.DrawableFactory;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
 
 import java.util.List;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.dynamicui;
+package com.android.pride.dynamicui;
 
 import android.annotation.TargetApi;
 import android.app.WallpaperManager;
@@ -28,7 +28,7 @@ import android.os.Build;
 import android.support.v4.graphics.ColorUtils;
 import android.support.v7.graphics.Palette;
 
-import com.android.launcher3.Utilities;
+import com.android.pride.Utilities;
 
 import java.util.List;
 

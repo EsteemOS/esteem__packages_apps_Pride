@@ -1,4 +1,4 @@
-package com.android.launcher3.compat;
+package com.android.pride.compat;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.os.Build;
 import android.os.LocaleList;
 import android.util.Log;
 
-import com.android.launcher3.Utilities;
+import com.android.pride.Utilities;
 
 import java.lang.reflect.Method;
 import java.util.Locale;

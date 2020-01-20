@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.widget;
+package com.android.pride.widget;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -23,15 +23,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.R;
-import com.android.launcher3.WidgetPreviewLoader;
-import com.android.launcher3.compat.AlphabeticIndexCompat;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.util.LabelComparator;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.LauncherAppState;
+import com.android.pride.R;
+import com.android.pride.WidgetPreviewLoader;
+import com.android.pride.compat.AlphabeticIndexCompat;
+import com.android.pride.model.PackageItemInfo;
+import com.android.pride.model.WidgetItem;
+import com.android.pride.util.LabelComparator;
+import com.android.pride.util.MultiHashMap;
+import com.android.pride.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.Collections;

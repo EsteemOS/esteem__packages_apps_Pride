@@ -1,4 +1,4 @@
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.content.ComponentName;
 import android.content.ContentProviderOperation;
@@ -14,21 +14,21 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.launcher3.InvariantDeviceProfile;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetProviderInfo;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherProvider;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.Workspace;
-import com.android.launcher3.compat.AppWidgetManagerCompat;
-import com.android.launcher3.compat.PackageInstallerCompat;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.GridOccupancy;
-import com.android.launcher3.util.LongArrayMap;
+import com.android.pride.InvariantDeviceProfile;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherAppWidgetProviderInfo;
+import com.android.pride.LauncherModel;
+import com.android.pride.LauncherProvider;
+import com.android.pride.LauncherSettings;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.Utilities;
+import com.android.pride.Workspace;
+import com.android.pride.compat.AppWidgetManagerCompat;
+import com.android.pride.compat.PackageInstallerCompat;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.util.GridOccupancy;
+import com.android.pride.util.LongArrayMap;
 
 import java.util.ArrayList;
 import java.util.Collections;

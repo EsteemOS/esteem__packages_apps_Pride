@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.widget;
+package com.android.pride.widget;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -25,23 +25,23 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.android.launcher3.BaseContainerView;
-import com.android.launcher3.DeleteDropTarget;
-import com.android.launcher3.DragSource;
-import com.android.launcher3.DropTarget.DragObject;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.Launcher;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.dragndrop.DragOptions;
-import com.android.launcher3.folder.Folder;
-import com.android.launcher3.model.PackageItemInfo;
-import com.android.launcher3.model.WidgetItem;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.MultiHashMap;
-import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.BaseContainerView;
+import com.android.pride.DeleteDropTarget;
+import com.android.pride.DragSource;
+import com.android.pride.DropTarget.DragObject;
+import com.android.pride.ItemInfo;
+import com.android.pride.Launcher;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.dragndrop.DragOptions;
+import com.android.pride.folder.Folder;
+import com.android.pride.model.PackageItemInfo;
+import com.android.pride.model.WidgetItem;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.userevent.nano.LauncherLogProto.Target;
+import com.android.pride.util.MultiHashMap;
+import com.android.pride.util.PackageUserKey;
+import com.android.pride.util.Thunk;
 
 import java.util.List;
 

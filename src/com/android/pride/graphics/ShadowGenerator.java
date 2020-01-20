@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.graphics;
+package com.android.pride.graphics;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -25,8 +25,8 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.RectF;
 
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.util.Preconditions;
+import com.android.pride.LauncherAppState;
+import com.android.pride.util.Preconditions;
 
 /**
  * Utility class to add shadows to bitmaps.

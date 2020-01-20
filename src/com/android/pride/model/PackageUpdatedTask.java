@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3.model;
+package com.android.pride.model;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -24,27 +24,27 @@ import android.graphics.Bitmap;
 import android.os.UserHandle;
 import android.util.Log;
 
-import com.android.launcher3.AllAppsList;
-import com.android.launcher3.AppInfo;
-import com.android.launcher3.IconCache;
-import com.android.launcher3.InstallShortcutReceiver;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.LauncherAppState;
-import com.android.launcher3.LauncherAppWidgetInfo;
-import com.android.launcher3.LauncherModel;
-import com.android.launcher3.LauncherModel.CallbackTask;
-import com.android.launcher3.LauncherModel.Callbacks;
-import com.android.launcher3.LauncherSettings;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.ShortcutInfo;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.graphics.LauncherIcons;
-import com.android.launcher3.util.FlagOp;
-import com.android.launcher3.util.ItemInfoMatcher;
-import com.android.launcher3.util.ManagedProfileHeuristic;
-import com.android.launcher3.util.PackageUserKey;
+import com.android.pride.AllAppsList;
+import com.android.pride.AppInfo;
+import com.android.pride.IconCache;
+import com.android.pride.InstallShortcutReceiver;
+import com.android.pride.ItemInfo;
+import com.android.pride.LauncherAppState;
+import com.android.pride.LauncherAppWidgetInfo;
+import com.android.pride.LauncherModel;
+import com.android.pride.LauncherModel.CallbackTask;
+import com.android.pride.LauncherModel.Callbacks;
+import com.android.pride.LauncherSettings;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.ShortcutInfo;
+import com.android.pride.Utilities;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.compat.UserManagerCompat;
+import com.android.pride.graphics.LauncherIcons;
+import com.android.pride.util.FlagOp;
+import com.android.pride.util.ItemInfoMatcher;
+import com.android.pride.util.ManagedProfileHeuristic;
+import com.android.pride.util.PackageUserKey;
 
 import java.util.ArrayList;
 import java.util.Arrays;

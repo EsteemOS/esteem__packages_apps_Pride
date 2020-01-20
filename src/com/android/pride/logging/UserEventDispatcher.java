@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3.logging;
+package com.android.pride.logging;
 
 import android.app.PendingIntent;
 import android.content.ComponentName;
@@ -25,28 +25,28 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewParent;
 
-import com.android.launcher3.DropTarget;
-import com.android.launcher3.ItemInfo;
-import com.android.launcher3.R;
-import com.android.launcher3.Utilities;
-import com.android.launcher3.config.ProviderConfig;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Action;
-import com.android.launcher3.userevent.nano.LauncherLogProto.ContainerType;
-import com.android.launcher3.userevent.nano.LauncherLogProto.LauncherEvent;
-import com.android.launcher3.userevent.nano.LauncherLogProto.Target;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.LogConfig;
+import com.android.pride.DropTarget;
+import com.android.pride.ItemInfo;
+import com.android.pride.R;
+import com.android.pride.Utilities;
+import com.android.pride.config.ProviderConfig;
+import com.android.pride.userevent.nano.LauncherLogProto.Action;
+import com.android.pride.userevent.nano.LauncherLogProto.ContainerType;
+import com.android.pride.userevent.nano.LauncherLogProto.LauncherEvent;
+import com.android.pride.userevent.nano.LauncherLogProto.Target;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.LogConfig;
 
 import java.util.List;
 import java.util.Locale;
 
-import static com.android.launcher3.logging.LoggerUtils.newCommandAction;
-import static com.android.launcher3.logging.LoggerUtils.newContainerTarget;
-import static com.android.launcher3.logging.LoggerUtils.newDropTarget;
-import static com.android.launcher3.logging.LoggerUtils.newItemTarget;
-import static com.android.launcher3.logging.LoggerUtils.newLauncherEvent;
-import static com.android.launcher3.logging.LoggerUtils.newTarget;
-import static com.android.launcher3.logging.LoggerUtils.newTouchAction;
+import static com.android.pride.logging.LoggerUtils.newCommandAction;
+import static com.android.pride.logging.LoggerUtils.newContainerTarget;
+import static com.android.pride.logging.LoggerUtils.newDropTarget;
+import static com.android.pride.logging.LoggerUtils.newItemTarget;
+import static com.android.pride.logging.LoggerUtils.newLauncherEvent;
+import static com.android.pride.logging.LoggerUtils.newTarget;
+import static com.android.pride.logging.LoggerUtils.newTouchAction;
 
 /**
  * Manages the creation of {@link LauncherEvent}.
