@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -39,16 +39,16 @@ import android.view.ViewDebug;
 import android.view.ViewParent;
 import android.widget.TextView;
 
-import com.android.launcher3.IconCache.IconLoadRequest;
-import com.android.launcher3.IconCache.ItemInfoUpdateReceiver;
-import com.android.launcher3.badge.BadgeInfo;
-import com.android.launcher3.badge.BadgeRenderer;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.graphics.DrawableFactory;
-import com.android.launcher3.graphics.HolographicOutlineHelper;
-import com.android.launcher3.graphics.IconPalette;
-import com.android.launcher3.graphics.PreloadIconDrawable;
-import com.android.launcher3.model.PackageItemInfo;
+import com.android.pride.IconCache.IconLoadRequest;
+import com.android.pride.IconCache.ItemInfoUpdateReceiver;
+import com.android.pride.badge.BadgeInfo;
+import com.android.pride.badge.BadgeRenderer;
+import com.android.pride.folder.FolderIcon;
+import com.android.pride.graphics.DrawableFactory;
+import com.android.pride.graphics.HolographicOutlineHelper;
+import com.android.pride.graphics.IconPalette;
+import com.android.pride.graphics.PreloadIconDrawable;
+import com.android.pride.model.PackageItemInfo;
 
 import java.text.NumberFormat;
 

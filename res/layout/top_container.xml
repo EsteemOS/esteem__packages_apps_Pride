@@ -16,7 +16,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<com.android.launcher3.topwidget.TopWidgetView
+<com.android.pride.topwidget.TopWidgetView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/top_container"
     android:layout_width="match_parent"
@@ -54,4 +54,4 @@
         android:paddingLeft="@dimen/top_widget_padding"
         android:paddingRight="@dimen/top_widget_padding" />
 
-</com.android.launcher3.topwidget.TopWidgetView>
+</com.android.pride.topwidget.TopWidgetView>

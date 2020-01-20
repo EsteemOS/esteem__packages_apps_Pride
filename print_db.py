@@ -19,13 +19,13 @@ CONTAINER_DESKTOP = -100
 CONTAINER_HOTSEAT = -101
 
 DIR = "db_files"
-AUTO_FILE = DIR + "/launcher.db"
+AUTO_FILE = DIR + "/pride.db"
 INDEX_FILE = DIR + "/index.html"
 
 def usage():
-  print "usage: print_db.py launcher.db <4x4|5x5|5x6|...> -- prints a launcher.db with"
+  print "usage: print_db.py pride.db <4x4|5x5|5x6|...> -- prints a pride.db with"
   print "       the specified grid size (rows x cols)"
-  print "usage: print_db.py <4x4|5x5|5x6|...> -- adb pulls a launcher.db from a device"
+  print "usage: print_db.py <4x4|5x5|5x6|...> -- adb pulls a pride.db from a device"
   print "       and prints it with the specified grid size (rows x cols)"
   print
   print "The dump will be created in a directory called db_files in cwd."
@@ -43,7 +43,7 @@ def adb_root_remount():
 def pull_file(fn):
   print "pull_file: " + fn
   rv = os.system("adb pull"
-    + " /data/data/com.android.launcher3/databases/launcher.db"
+    + " /data/data/com.android.pride/databases/pride.db"
     + " " + fn);
   if rv != 0:
     print "adb pull failed"

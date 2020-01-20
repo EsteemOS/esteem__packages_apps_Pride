@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.pm.LauncherActivityInfo;
 import android.os.UserHandle;
 
-import com.android.launcher3.compat.LauncherAppsCompat;
-import com.android.launcher3.util.FlagOp;
-import com.android.launcher3.util.ItemInfoMatcher;
+import com.android.pride.compat.LauncherAppsCompat;
+import com.android.pride.util.FlagOp;
+import com.android.pride.util.ItemInfoMatcher;
 
 import java.util.ArrayList;
 import java.util.HashSet;

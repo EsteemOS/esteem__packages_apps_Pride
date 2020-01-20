@@ -32,8 +32,8 @@ android {
 
     productFlavors {
         aosp {
-            applicationId 'com.android.launcher3'
-            testApplicationId 'com.android.launcher3.tests'
+            applicationId 'com.android.pride'
+            testApplicationId 'com.android.pride.tests'
         }
     }
     sourceSets {
@@ -91,7 +91,7 @@ protobuf {
                 task.builtins {
                     remove java
                     javanano {
-                        option "java_package=launcher_log.proto|com.android.launcher3.userevent.nano"
+                        option "java_package=pride_log.proto|com.android.pride.userevent.nano"
                         option "enum_style=java"
                     }
                 }

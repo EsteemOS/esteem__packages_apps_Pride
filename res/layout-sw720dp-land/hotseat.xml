@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.android.launcher3.Hotseat
+<com.android.pride.Hotseat
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto" >
     <LinearLayout
@@ -22,25 +22,25 @@
         android:layout_height="match_parent"
         android:orientation="vertical" >
 
-        <com.android.launcher3.CellLayout
+        <com.android.pride.CellLayout
             android:id="@+id/layout"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dynamic_grid_hotseat_height"
             launcher:containerType="hotseat" />
 
-        <com.android.launcher3.qsb.QsbContainerView
+        <com.android.pride.qsb.QsbContainerView
             android:id="@+id/qsb_container_bottom"
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
 
             <fragment
-                android:name="com.android.launcher3.qsb.QsbContainerView$QsbFragment"
+                android:name="com.android.pride.qsb.QsbContainerView$QsbFragment"
                 android:tag="qsb_view_hotseat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="top"/>
 
-        </com.android.launcher3.qsb.QsbContainerView>
+        </com.android.pride.qsb.QsbContainerView>
    </LinearLayout>
-</com.android.launcher3.Hotseat>
+</com.android.pride.Hotseat>

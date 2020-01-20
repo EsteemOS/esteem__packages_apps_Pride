@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -45,19 +45,19 @@ import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.view.animation.DecelerateInterpolator;
 
-import com.android.launcher3.BubbleTextView.BubbleTextShadowHandler;
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.accessibility.DragAndDropAccessibilityDelegate;
-import com.android.launcher3.accessibility.FolderAccessibilityHelper;
-import com.android.launcher3.accessibility.WorkspaceAccessibilityHelper;
-import com.android.launcher3.anim.PropertyListBuilder;
-import com.android.launcher3.config.ProviderConfig;
-import com.android.launcher3.folder.FolderIcon;
-import com.android.launcher3.graphics.DragPreviewProvider;
-import com.android.launcher3.util.CellAndSpan;
-import com.android.launcher3.util.GridOccupancy;
-import com.android.launcher3.util.ParcelableSparseArray;
-import com.android.launcher3.util.Thunk;
+import com.android.pride.BubbleTextView.BubbleTextShadowHandler;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.accessibility.DragAndDropAccessibilityDelegate;
+import com.android.pride.accessibility.FolderAccessibilityHelper;
+import com.android.pride.accessibility.WorkspaceAccessibilityHelper;
+import com.android.pride.anim.PropertyListBuilder;
+import com.android.pride.config.ProviderConfig;
+import com.android.pride.folder.FolderIcon;
+import com.android.pride.graphics.DragPreviewProvider;
+import com.android.pride.util.CellAndSpan;
+import com.android.pride.util.GridOccupancy;
+import com.android.pride.util.ParcelableSparseArray;
+import com.android.pride.util.Thunk;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

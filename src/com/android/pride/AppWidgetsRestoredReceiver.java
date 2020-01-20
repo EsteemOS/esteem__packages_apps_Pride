@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.pride;
 
 import android.appwidget.AppWidgetHost;
 import android.appwidget.AppWidgetManager;
@@ -11,8 +11,8 @@ import android.database.Cursor;
 import android.os.Handler;
 import android.util.Log;
 
-import com.android.launcher3.LauncherSettings.Favorites;
-import com.android.launcher3.util.ContentWriter;
+import com.android.pride.LauncherSettings.Favorites;
+import com.android.pride.util.ContentWriter;
 
 public class AppWidgetsRestoredReceiver extends BroadcastReceiver {
 

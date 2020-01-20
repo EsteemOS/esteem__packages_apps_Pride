@@ -17,7 +17,7 @@
 -->
 
 <!-- Extends FrameLayout -->
-<com.android.launcher3.topwidget.CalendarView
+<com.android.pride.topwidget.CalendarView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:systemui="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
@@ -105,6 +105,6 @@
             android:layout_weight="1" />
 
     </LinearLayout>
-</com.android.launcher3.topwidget.CalendarView>
+</com.android.pride.topwidget.CalendarView>
 
 

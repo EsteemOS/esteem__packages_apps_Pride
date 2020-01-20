@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,7 +24,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import com.android.launcher3.dragndrop.DragLayer;
+import com.android.pride.dragndrop.DragLayer;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

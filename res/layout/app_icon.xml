@@ -14,4 +14,4 @@
      limitations under the License.
 -->
 
-<com.android.launcher3.BubbleTextView style="@style/BaseIcon.Workspace" />
+<com.android.pride.BubbleTextView style="@style/BaseIcon.Workspace" />

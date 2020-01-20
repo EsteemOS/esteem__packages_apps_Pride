@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.android.launcher3;
+package com.android.pride;
 
 import android.animation.ObjectAnimator;
 import android.content.res.Resources;
@@ -28,8 +28,8 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.TextView;
 
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.Themes;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.util.Themes;
 
 /**
  * The track and scrollbar that shows when you scroll the list.
@@ -197,7 +197,7 @@ public class BaseRecyclerViewFastScrollBar {
             case MotionEvent.ACTION_DOWN:
                 if (isNearThumb(downX, downY)) {
                     mTouchOffsetY = downY - mThumbOffsetY;
-                } else if (FeatureFlags.LAUNCHER3_DIRECT_SCROLL
+                } else if (FeatureFlags.pride_DIRECT_SCROLL
                         && mRv.supportsFastScrolling()
                         && isNearScrollBar(downX)) {
                     calcTouchOffsetAndPrepToFastScroll(downY, lastY);

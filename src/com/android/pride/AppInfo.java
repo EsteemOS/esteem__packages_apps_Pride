@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.content.Intent;
 import android.content.pm.LauncherActivityInfo;
 import android.os.UserHandle;
 
-import com.android.launcher3.compat.UserManagerCompat;
-import com.android.launcher3.util.ComponentKey;
-import com.android.launcher3.util.PackageManagerHelper;
+import com.android.pride.compat.UserManagerCompat;
+import com.android.pride.util.ComponentKey;
+import com.android.pride.util.PackageManagerHelper;
 
 /**
  * Represents an app in AllAppsView.

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.view.View.AccessibilityDelegate;
 
-import com.android.launcher3.logging.UserEventDispatcher;
+import com.android.pride.logging.UserEventDispatcher;
 
 public abstract class BaseActivity extends Activity {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.launcher3;
+package com.android.pride;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -30,9 +30,9 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.allapps.AllAppsContainerView;
-import com.android.launcher3.config.FeatureFlags;
-import com.android.launcher3.util.TransformingTouchDelegate;
+import com.android.pride.allapps.AllAppsContainerView;
+import com.android.pride.config.FeatureFlags;
+import com.android.pride.util.TransformingTouchDelegate;
 
 /**
  * A base container view, which supports resizing.
@@ -62,7 +62,7 @@ public abstract class BaseContainerView extends FrameLayout
     public BaseContainerView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
-        if (FeatureFlags.LAUNCHER3_ALL_APPS_PULL_UP && this instanceof AllAppsContainerView) {
+        if (FeatureFlags.pride_ALL_APPS_PULL_UP && this instanceof AllAppsContainerView) {
             mBaseDrawable = new ColorDrawable();
         } else {
             TypedArray a = context.obtainStyledAttributes(attrs,

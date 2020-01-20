@@ -1,4 +1,4 @@
-package com.android.launcher3;
+package com.android.pride;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -17,10 +17,10 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.android.launcher3.accessibility.DragViewStateAnnouncer;
-import com.android.launcher3.dragndrop.DragLayer;
-import com.android.launcher3.util.FocusLogic;
-import com.android.launcher3.util.TouchController;
+import com.android.pride.accessibility.DragViewStateAnnouncer;
+import com.android.pride.dragndrop.DragLayer;
+import com.android.pride.util.FocusLogic;
+import com.android.pride.util.TouchController;
 
 public class AppWidgetResizeFrame extends FrameLayout
         implements View.OnKeyListener, TouchController {
